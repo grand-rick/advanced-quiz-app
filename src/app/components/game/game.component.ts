@@ -9,15 +9,28 @@ import { Question } from 'src/app/models/Question';
 })
 export class GameComponent implements OnInit {
   availableQuestions: Question[] = [];
-  randomQuestion: Question = this.availableQuestions[Math.floor(Math.random() * this.availableQuestions.length)];
+  randomQuestion: Question;
 
-  constructor (private quizService: QuizService) {}
+  constructor (private quizService: QuizService) {
+      this.randomQuestion = {
+        category: '',
+        difficulty: '',
+        question: '',
+        correct_answer: '',
+        incorrect_answers: ['', '', '', '']
+      }
+    }
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
       this.availableQuestions = data;
-      alert(data);
-      alert(this.availableQuestions);
+      alert(this.availableQuestions[0].question);
     });
+    
+    if (this.availableQuestions.length > 0) {
+      const randomIndex = Math.floor(Math.random() * this.availableQuestions.length);
+      this.randomQuestion = this.availableQuestions[randomIndex];
+    }
+    alert(this.randomQuestion.question);
   }
 }
