@@ -14,11 +14,11 @@ export class GameComponent implements OnInit {
   CORRECT_BONUS = 10;
   MAX_QUESTIONS = 3;
 
-  constructor (private renderer: Renderer2, private quizService: QuizService) {}
-
-  ngOnInit(): void {
+  constructor (private renderer: Renderer2, private quizService: QuizService) {
     this.quizService.getQuestions().subscribe(data => {
       this.availableQuestions = data;
     })
   }
+
+  ngOnInit(): void {}
 }
