@@ -1,5 +1,10 @@
 <div class="container">
-    <div id="loader"></div>
+  <div *ngFor="let quiz of availableQuestions">
+    <div>
+      {{quiz.question}}
+    </div>
+  </div>
+    <!-- <div id="loader"></div>
       <div id="game" class="justify-center flex-column hidden">
           <div id="hud">
               <div id="hud-item">
@@ -36,5 +41,5 @@
               <p class="choice-prefix">D</p>
               <p class="choice-text" data-number="4"></p>
           </div>
-      </div>
+      </div> -->
   </div>
