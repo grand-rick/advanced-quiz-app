@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
 
@@ -9,16 +9,15 @@ import { Question } from 'src/app/models/Question';
 })
 export class GameComponent implements OnInit {
   availableQuestions: Question[] = [];
+  randomQuestion: Question = availableQuestions[Math.floor(Math.random * availableQuestions.length)];
 
-  //CONSTANTS
-  CORRECT_BONUS = 10;
-  MAX_QUESTIONS = 3;
+  constructor (private quizService: QuizService) {}
 
-  constructor (private renderer: Renderer2, private quizService: QuizService) {
+  ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
       this.availableQuestions = data;
-    })
+      alert(data);
+      alert(this.availableQuestions);
+    });
   }
-
-  ngOnInit(): void {}
 }
