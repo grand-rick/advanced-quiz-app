@@ -1,6 +1,6 @@
-import { Component, OnInit, Renderer2, Router } from '@angular/core';
-import { QuizService } from 'src/services/quiz.service';
-import { Question } from 'src/models/Question';
+import { Component, OnInit, Renderer2 } from '@angular/core';
+import { QuizService } from 'src/app/services/quiz.service.spec.ts';
+import { Question } from 'src/app/models/Question';
 
 @Component({
   selector: 'app-game',
@@ -14,7 +14,7 @@ export class GameComponent implements OnInit {
   CORRECT_BONUS = 10;
   MAX_QUESTIONS = 3;
 
-  constructor (private renderer: Renderer2, private router: Router, private quizService: QuizService) {}
+  constructor (private renderer: Renderer2, private quizService: QuizService) {}
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
