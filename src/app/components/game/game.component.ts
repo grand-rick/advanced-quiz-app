@@ -1,5 +1,5 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
-import { QuizService } from 'src/app/services/quiz.service.spec.ts';
+import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
 
 @Component({
