@@ -1,6 +1,35 @@
 [
     {
-        "Question": "Who are you?",
-        "Answer": "The Goat!"
-    }
+        "category": "General Knowledge",
+        "difficulty": "easy",
+        "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+        "correct_answer": "Richard Branson",
+        "incorrect_answers": [
+        "Alan Sugar",
+        "Donald Trump",
+        "Bill Gates"
+        ]
+    },
+    {
+        "category": "General Knowledge",
+        "difficulty": "easy",
+        "question": "How would one say goodbye in Spanish?",
+        "correct_answer": "Adi&oacute;s",
+        "incorrect_answers": [
+        " Hola",
+        "Au Revoir",
+        "Salir"
+        ]
+    },
+    {
+        "category": "General Knowledge",
+        "difficulty": "easy",
+        "question": "Red Vines is a brand of what type of candy?",
+        "correct_answer": "Licorice",
+        "incorrect_answers": [
+        "Lollipop",
+        "Chocolate",
+        "Bubblegum"
+        ]
+    },
 ]
