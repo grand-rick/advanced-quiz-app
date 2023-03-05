@@ -19,7 +19,7 @@ export class GameComponent implements OnInit {
   score = 0;
   questionCounter = 0;
   availableQuestions = [];
-  questions: string = '';
+  questions = {};
 
   //CONSTANTS
   CORRECT_BONUS = 10;
