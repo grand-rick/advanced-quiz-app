@@ -9,7 +9,7 @@ import { Question } from 'src/app/models/Question';
 })
 export class GameComponent implements OnInit {
   availableQuestions: Question[] = [];
-  randomQuestion: Question = availableQuestions[Math.floor(Math.random * availableQuestions.length)];
+  randomQuestion: Question = this.availableQuestions[Math.floor(Math.random() * this.availableQuestions.length)];
 
   constructor (private quizService: QuizService) {}
 
