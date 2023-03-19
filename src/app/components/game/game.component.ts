@@ -10,6 +10,7 @@ import { Question } from 'src/app/models/Question';
 export class GameComponent implements OnInit {
   availableQuestions: Question[] = [];
   randomQuestion: Question;
+  answers: string[] = []
 
   constructor (private quizService: QuizService) {
       this.randomQuestion = {
@@ -28,6 +29,11 @@ export class GameComponent implements OnInit {
         const randomIndex: number = Math.floor(Math.random() * this.availableQuestions.length);
         this.randomQuestion = this.availableQuestions[randomIndex];
       }
+
+      this.answers = [
+        ...this.randomQuestion.incorrect_answers,
+        this.randomQuestion.correct_answer
+      ]
     });
     
   }
