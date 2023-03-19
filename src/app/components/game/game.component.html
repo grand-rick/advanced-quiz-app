@@ -1,7 +1,9 @@
 <div class="container">
-    <h2>{{randomQuestion.question}}</h2>
+    <div class="quiz">
+      <h2>{{randomQuestion.question}}</h2>
 
-    <ul>
-      <li *ngFor="let answer of answers">{{answer}}</li>
-    </ul>
+      <ul>
+        <li *ngFor="let answer of answers">{{answer}}</li>
+      </ul>
+    </div>
 </div>
