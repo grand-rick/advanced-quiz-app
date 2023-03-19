@@ -24,13 +24,11 @@ export class GameComponent implements OnInit {
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
       this.availableQuestions = data;
-      alert(this.availableQuestions[0].question);
+      if (this.availableQuestions.length) {
+        const randomIndex: number = Math.floor(Math.random() * this.availableQuestions.length);
+        this.randomQuestion = this.availableQuestions[randomIndex];
+      }
     });
     
-    if (this.availableQuestions.length > 0) {
-      const randomIndex = Math.floor(Math.random() * this.availableQuestions.length);
-      this.randomQuestion = this.availableQuestions[randomIndex];
-    }
-    alert(this.randomQuestion.question);
   }
 }
