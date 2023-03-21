@@ -48,7 +48,7 @@ export class GameComponent implements OnInit {
       this.choices[i] = {
         choice: unFormattedChoices[i],
         prefix: String.fromCharCode(this.prefixAsciiValue),
-        data_number:  (i+1).toString()
+        data_number:  i+1
       }
       this.prefixAsciiValue++;
     }
