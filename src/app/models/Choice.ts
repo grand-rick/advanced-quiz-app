@@ -1,11 +1,11 @@
 export class Choice {
     choice: string;
     prefix: string;
-    data_number: string;
+    data_number: number;
 
     constructor () {
         this.choice = '';
         this.prefix = '';
-        this.data_number = '';
+        this.data_number = 0;
     }
 }
