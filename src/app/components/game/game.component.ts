@@ -11,7 +11,6 @@ import { Choice } from 'src/app/models/Choice';
 
 export class GameComponent implements OnInit {
   prefixAsciiValue = 65; // A
-  alphabet = String.fromCharCode(this.prefixAsciiValue); // Output: A
 
   availableQuestions: Question[] = [];
   randomQuestion: Question;
@@ -40,16 +39,20 @@ export class GameComponent implements OnInit {
         this.randomQuestion.correct_answer
       ]
 
+      this.choiceHandler(unFormattedChoices);
+    });
+    
+    choiceHandler(unFormattedChoices: string[]): void {
       for (let i = 0, n = unFormattedChoices.length; i < n; i++) {
         this.choices[i] = {
           choice: unFormattedChoices[i],
-          prefix: this.alphabet,
-          data_number:  i+1
+          prefix: String.fromCharCode(this.prefixAsciiValue);,
+          data_number:  (i+1).toString()
         }
-
         this.prefixAsciiValue++;
       }
-    });
-    
+    }
   }
+
+  
 }
