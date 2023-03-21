@@ -41,18 +41,17 @@ export class GameComponent implements OnInit {
 
       this.choiceHandler(unFormattedChoices);
     });
-    
-    choiceHandler(unFormattedChoices: string[]): void {
-      for (let i = 0, n = unFormattedChoices.length; i < n; i++) {
-        this.choices[i] = {
-          choice: unFormattedChoices[i],
-          prefix: String.fromCharCode(this.prefixAsciiValue);,
-          data_number:  (i+1).toString()
-        }
-        this.prefixAsciiValue++;
-      }
-    }
   }
 
+  choiceHandler(unFormattedChoices: string[]): void {
+    for (let i = 0, n = unFormattedChoices.length; i < n; i++) {
+      this.choices[i] = {
+        choice: unFormattedChoices[i],
+        prefix: String.fromCharCode(this.prefixAsciiValue);,
+        data_number:  (i+1).toString()
+      }
+      this.prefixAsciiValue++;
+    }
+  }
   
 }
