@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="quiz">
+      <h2>{{randomQuestion.question}}</h2>
+
+      <div class="choice-container" *ngFor="let choice of choices">
+        <p class="choice-prefix">{{choice.prefix}}</p>
+        <p class="choice-text" data-number={{choice.data_number}}>{{choice.choice}}</p>
+      </div>
+    </div>
+</div>
