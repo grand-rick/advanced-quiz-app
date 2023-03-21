@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
+<<<<<<< HEAD
 import { Choice } from 'src/app/models/Choice';
+=======
+>>>>>>> 00859b09ddc62147e5f0b435ef57f4e7a141e6b4
 
 @Component({
   selector: 'app-game',
@@ -9,12 +12,18 @@ import { Choice } from 'src/app/models/Choice';
   styleUrls: ['./game.component.css']
 })
 export class GameComponent implements OnInit {
+<<<<<<< HEAD
   prefixAsciiValue = 65; // A
   alphabet = String.fromCharCode(this.asciiValue); // Output: A
 
   availableQuestions: Question[] = [];
   randomQuestion: Question;
   choices: Choice[] = []
+=======
+  availableQuestions: Question[] = [];
+  randomQuestion: Question;
+  answers: string[] = []
+>>>>>>> 00859b09ddc62147e5f0b435ef57f4e7a141e6b4
 
   constructor (private quizService: QuizService) {
       this.randomQuestion = {
@@ -34,6 +43,7 @@ export class GameComponent implements OnInit {
         this.randomQuestion = this.availableQuestions[randomIndex];
       }
 
+<<<<<<< HEAD
       const unFormattedChoices: string[] = [
         ...this.randomQuestion.incorrect_answers,
         this.randomQuestion.correct_answer
@@ -48,6 +58,12 @@ export class GameComponent implements OnInit {
 
         this.prefixAsciiValue++;
       }
+=======
+      this.answers = [
+        ...this.randomQuestion.incorrect_answers,
+        this.randomQuestion.correct_answer
+      ]
+>>>>>>> 00859b09ddc62147e5f0b435ef57f4e7a141e6b4
     });
     
   }
