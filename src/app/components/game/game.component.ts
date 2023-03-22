@@ -32,7 +32,7 @@ export class GameComponent implements OnInit {
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
-      let loadedQuestions: [] = data;
+      let loadedQuestions = data;
 
       this.questions = this.questionsFormatter(loadedQuestions);
 
@@ -60,7 +60,11 @@ export class GameComponent implements OnInit {
   questionsFormatter(loadedQuestions: []): Question[] {
     let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion) => {
       const formattedQuestion: Question = {
+        category: loadedQuestion.category,
+        difficulty: loadedQuestion.difficulty,
         question: loadedQuestion.question,
+        answer: 0,
+        choices: []
       };
 
       const answerChoices = [...loadedQuestion.incorrect_answers];
