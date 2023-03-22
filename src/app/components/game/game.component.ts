@@ -58,7 +58,7 @@ export class GameComponent implements OnInit {
     return formattedChoice;
   }
   
-  questionsFormatter(loadedQuestions: rawQuestion[]): rawQuestion[] {
+  questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
     let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
