@@ -63,6 +63,8 @@ export class GameComponent implements OnInit {
     
     loadedQuestions = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
+        category: loadedQuestion.category,
+        difficulty: loadedQuestion.difficulty,
         question: loadedQuestion.question,
         answer: 0,
         choices: []
