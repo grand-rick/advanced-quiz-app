@@ -79,7 +79,7 @@ export class GameComponent implements OnInit {
       // Add the correct answer to the index with the answer value
       answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
 
-      answerChoices.forEach((choice, index) => {
+      answerChoices.forEach((choice: string, index: number) => {
         // Formatting each choice
         formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
       });
