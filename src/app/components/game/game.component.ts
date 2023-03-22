@@ -62,7 +62,7 @@ export class GameComponent implements OnInit {
     let neatQuestions: Question[] = [];
     
     loadedQuestions.forEach((loadedQuestion: rawQuestion) => {
-      const formattedQuestion: Question = {
+      const formattedQuestion = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
         question: loadedQuestion.question,
@@ -70,7 +70,7 @@ export class GameComponent implements OnInit {
         choices: []
       };
 
-      const answerChoices = [...loadedQuestion.incorrect_answers];
+      const answerChoices: string[] = [...loadedQuestion.incorrect_answers];
       formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
       // Add the correct answer to the index with the answer value
       answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
