@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
+import { rawQuestion } from 'src/app/models/rawQuestion';
 import { Choice } from 'src/app/models/Choice';
 
 @Component({
@@ -32,7 +33,7 @@ export class GameComponent implements OnInit {
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
-      let loadedQuestions = data;
+      let loadedQuestions: rawQuestion[] = data;
 
       this.questions = this.questionsFormatter(loadedQuestions);
 
@@ -57,8 +58,8 @@ export class GameComponent implements OnInit {
     return formattedChoice;
   }
   
-  questionsFormatter(loadedQuestions: []): Question[] {
-    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion) => {
+  questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
+    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
