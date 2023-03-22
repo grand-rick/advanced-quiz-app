@@ -128,7 +128,7 @@ export class GameComponent implements OnInit {
     if (!this.acceptingAnswers) return;
 
     this.acceptingAnswers = false;
-    const selectedChoice = this.elementRef.nativeElement.querySelector(`p:contains(${choice.choice})`)
+    const selectedChoice = this.elementRef.nativeElement.querySelector(`#${choice.data_number}`)
     const selectedAnswer = choice.data_number;
 
     const classToApply = (selectedAnswer == this.currentQuestion.answer) ? "correct" : "incorrect";
