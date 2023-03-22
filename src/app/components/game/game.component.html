@@ -1,11 +1,30 @@
 <div class="container">
   <div id="loader"></div>
     <div id="game" class="justify-center flex-column hidden">
-      <h2>{{currentQuestion.question}}</h2>
-
-      <div class="choice-container" *ngFor="let choice of currentQuestion.choices">
-        <p class="choice-prefix">{{choice.prefix}}</p>
-        <p class="choice-text" [id]="choice.data_number" (click)="onChoiceClick($event)">{{choice.choice}}</p>
-      </div>
+        <div id="hud">
+            <div id="hud-item">
+              <p id="progressText" class="hud-prefix">
+                {{progressText}}
+              </p>
+              <div id="progressBar">
+                  <div id="progressBarFull"></div>
+              </div>
+            </div>
+            <div id="hud-item">
+              <p class="hud-prefix">
+                Score
+              </p>
+              <h1 class="hud-main-text" id="score">
+                {{scoreText}}
+              </h1>
+            </div>
+          </div>
+        <h2>{{currentQuestion.question}}</h2>
+        <div class="choice-container" *ngFor="let choice of currentQuestion.choices">
+          <p class="choice-prefix">{{choice.prefix}}</p>
+          <p class="choice-text" [id]="choice.data_number" (click)="onChoiceClick($event)">{{choice.choice}}</p>
+        </div>
     </div>
 </div>
+
+<!-- REMEMBER TO CHANGE FROM EVENT TO CHOICE -->
