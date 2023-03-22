@@ -9,10 +9,16 @@ import { Observable } from 'rxjs';
 
 export class QuizService {
   // questions: Question[] = [];
+  score: number = 0;
 
   constructor(private http: HttpClient) { }
 
   getQuestions(): Observable<Question[]> {
     return this.http.get<Question[]>('assets/data.json');
+  }
+
+  setMostRecentScore(score: number): number {
+    this.score = score;
+    return this.score;
   }
 }
