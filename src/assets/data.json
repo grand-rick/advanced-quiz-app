@@ -1,35 +1,112 @@
 [
     {
-        "category": "General Knowledge",
+        "category": "Sports",
         "difficulty": "easy",
-        "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-        "correct_answer": "Richard Branson",
+        "question": "Who won the FIFA World Cup in 2018?",
+        "correct_answer": "Spain",
         "incorrect_answers": [
-        "Alan Sugar",
-        "Donald Trump",
-        "Bill Gates"
+        "Brazil",
+        "Germany",
+        "France"
         ]
     },
     {
-        "category": "General Knowledge",
+        "category": "Sports",
         "difficulty": "easy",
-        "question": "How would one say goodbye in Spanish?",
-        "correct_answer": "Adi&oacute;s",
+        "question": "Which tennis player has won the most Grand Slam titles?",
+        "correct_answer": "Roger Federer ",
         "incorrect_answers": [
-        " Hola",
-        "Au Revoir",
-        "Salir"
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Roger Federer "
         ]
     },
     {
-        "category": "General Knowledge",
+        "category": "Sports",
         "difficulty": "easy",
-        "question": "Red Vines is a brand of what type of candy?",
-        "correct_answer": "Licorice",
+        "question": "What is the highest score you can achieve in a single turn in bowling?",
+        "correct_answer": "30",
         "incorrect_answers": [
-        "Lollipop",
-        "Chocolate",
-        "Bubblegum"
+        "10",
+        "20",
+        "40"
         ]
-    }
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Who holds the record for the most goals scored in a single Premier League season?",
+        "correct_answer": "Alan Shearer",
+        "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Thierry Henry",
+        "Luis Suarez"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Which boxer holds the record for the most heavyweight title defenses?",
+        "correct_answer": "Joe Louis",
+        "incorrect_answers": [
+        "Muhammad Ali",
+        "Mike Tyson",
+        "Lennox Lewis"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Which country won the most medals at the 2020 Tokyo Olympics?",
+        "correct_answer": "China",
+        "incorrect_answers": [
+        "United States",
+        "Japan",
+        "Russia"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "What is the name of the trophy awarded to the winner of the Super Bowl?",
+        "correct_answer": "Vince Lombardi Trophy",
+        "incorrect_answers": [
+        "Stanley Cup",
+        "Larry O'Brien Trophy",
+        "Commissioner's Trophy"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Who is the all-time leading scorer in NBA history?",
+        "correct_answer": "Kareem Abdul-Jabbar",
+        "incorrect_answers": [
+        "Kobe Bryant",
+        "LeBron James",
+        "Michael Jordan"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Which country has won the most medals in Olympic history?",
+        "correct_answer": "United States",
+        "incorrect_answers": [
+        "China",
+        "Russia",
+        "Great Britain"
+        ]
+    },
+    {
+        "category": "Sports",
+        "difficulty": "easy",
+        "question": "Who won the Women's Singles title at Wimbledon in 2021?",
+        "correct_answer": "Ashleigh Barty",
+        "incorrect_answers": [
+        "Serena Williams",
+        "Naomi Osaka",
+        "Simona Halep"
+        ]
+    },
 ]
