@@ -1,10 +1,11 @@
 <div class="container">
-    <div class="quiz">
-      <h2>{{randomQuestion.question}}</h2>
+  <div id="loader"></div>
+    <div id="game" class="justify-center flex-column hidden">
+      <h2>{{currentQuestion.question}}</h2>
 
-      <div class="choice-container" *ngFor="let choice of randomQuestion.choices">
+      <div class="choice-container" *ngFor="let choice of currentQuestion.choices">
         <p class="choice-prefix">{{choice.prefix}}</p>
-        <p class="choice-text" [id]="choice.data_number">{{choice.choice}}</p>
+        <p class="choice-text" [id]="choice.data_number" (click)="onChoiceClick($event)">{{choice.choice}}</p>
       </div>
     </div>
 </div>
