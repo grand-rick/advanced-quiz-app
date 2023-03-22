@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef  } from '@angular/core';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
 import { rawQuestion } from 'src/app/models/rawQuestion';
@@ -12,17 +12,21 @@ import { Choice } from 'src/app/models/Choice';
 
 export class GameComponent implements OnInit {
   questions: Question[] = [];
-  randomQuestion: Question;
+  availableQuestions: Question[] = [];
+  currentQuestion: Question;
 
-  // availableQuestions: = [];
-  
-  // currentQuestion = {};
-  // acceptingAnswers = false;
-  // score = 0;
-  // questionCounter = 0;
+  //CONSTANTS
+  NUM_OF_QUESTIONS: number = 10;
+  CORRECT_BONUS: number = 10;
+  MAX_QUESTIONS: number = 3;
 
-  constructor (private quizService: QuizService) {
-      this.randomQuestion = {
+  acceptingAnswers: boolean = false;
+  score: number = 0;
+  questionCounter: number = 0;
+  scoreText: string = '0';
+
+  constructor (private quizService: QuizService, private renderer: Renderer2, private elementRef: ElementRef) {
+      this.currentQuestion = {
         category: '',
         difficulty: '',
         question: '',
@@ -39,12 +43,7 @@ export class GameComponent implements OnInit {
 
       this.questions = this.questionsFormatter(loadedQuestions);
 
-      // Change to available questions later
-      if (this.questions.length) {
-        const randomIndex: number = Math.floor(Math.random() * this.questions.length);
-        this.randomQuestion = this.questions[randomIndex];
-      }
-
+      this.startGame();
     });
   }
 
@@ -87,4 +86,67 @@ export class GameComponent implements OnInit {
 
     return neatQuestions;
   }
+
+  startGame(): void {
+    this.questionCounter = 0;
+    this.score = 0;
+    this.availableQuestions = [...questions].slice(0, NUM_OF_QUESTIONS);
+    this.getNewQuestion();
+
+    const game = this.elementRef.nativeElement.querySelector('#game');
+    const loader = this.elementRef.nativeElement.querySelector('#loader');
+
+    this.renderer.removeClass(game, 'hidden');
+    this.renderer.addClass(loader, 'hidden');
+  }
+
+  getNewQuestion = () => {
+    if (this.availableQuestions.length === 0 || this.questionCounter >= this.MAX_QUESTIONS) {
+      localStorage.setItem('mostRecentScore', this.score);
+      //go to the end page
+      return window.location.assign('/end');
+    }
+    this.questionCounter++;
+
+    // progressText.innerText = `Question ${questionCounter}  /  ${MAX_QUESTIONS}`;
+    // Update the progress bar
+    // progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS)* 100}%`;
+
+    const questionIndex = Math.floor(Math.random() * this.availableQuestions.length);
+    this.currentQuestion = this.availableQuestions[questionIndex];
+
+    // choices.forEach((choice) => {
+    //     const number = choice.dataset['number'];
+    //     choice.innerText = currentQuestion['choice' + number];
+    // });
+
+    this.availableQuestions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+  };
+
+  onChoiceClick(event: MouseEvent): void {
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedChoice = event.target;
+    const selectedAnswer = selectedChoice.id;
+
+    const classToApply = (selectedAnswer == this.currentQuestion.answer) ? "correct" : "incorrect";
+
+    if(classToApply === 'correct') {
+        this.incrementScore(this.CORRECT_BONUS);
+    }
+
+    // selectedChoice.parentElement.classList.add(classToApply);
+
+    // setTimeout(() => {
+    // selectedChoice.parentElement.classList.remove(classToApply);
+    // getNewQuestion();
+    // }, 1000);
+  }
+
+  incrementScore = (num: number) => {
+    this.score += num;
+    this.scoreText = score as unknown as string;
+};
 }
