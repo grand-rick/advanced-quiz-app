@@ -50,13 +50,11 @@ export class GameComponent implements OnInit {
 
   choiceFormatter(choice: string, index: number): Choice {
     let prefixAsciiValue = 65; // A
-
     let formattedChoice = {
         prefix: String.fromCharCode(prefixAsciiValue + index),
         choice,
         data_number:  index+1
       }
-
     return formattedChoice;
   }
   
