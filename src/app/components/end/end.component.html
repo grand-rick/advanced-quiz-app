@@ -3,7 +3,7 @@
        <h1 id="finalScore"></h1>
        <form>
            <input type="text" name="username" id="username" placeholder="username" [(ngModel)]="username">
-           <button type="submit" class="btn" id="saveScoreBtn" (click)="saveHighScore($event)">Save</button>
+           <button type="submit" class="btn" id="saveScoreBtn" (click)="saveHighScore()">Save</button>
        </form>
        <a class="btn" routerLink="/game">Play Again</a>
        <a class="btn" routerink="/">Go Home</a>
