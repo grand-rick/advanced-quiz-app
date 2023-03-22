@@ -25,6 +25,7 @@ export class GameComponent implements OnInit {
   score: number = 0;
   questionCounter: number = 0;
   scoreText: string = '0';
+  progressText: string = '';
 
   constructor (private quizService: QuizService, private renderer: Renderer2, private elementRef: ElementRef, private router: Router) {
       this.currentQuestion = {
@@ -109,17 +110,14 @@ export class GameComponent implements OnInit {
     }
     this.questionCounter++;
 
-    // progressText.innerText = `Question ${questionCounter}  /  ${MAX_QUESTIONS}`;
+    this.progressText = `Question ${this.questionCounter}  /  ${this.MAX_QUESTIONS}`;
     // Update the progress bar
-    // progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS)* 100}%`;
+    const progressBarFull = this.elementRef.nativeElement.querySelector('#progressBarFull');
+    const width = `${(this.questionCounter / this.MAX_QUESTIONS) * 100}%`;
+    this.renderer.setStyle(progressBarFull, 'width', width);
 
     const questionIndex = Math.floor(Math.random() * this.availableQuestions.length);
     this.currentQuestion = this.availableQuestions[questionIndex];
-
-    // choices.forEach((choice) => {
-    //     const number = choice.dataset['number'];
-    //     choice.innerText = currentQuestion['choice' + number];
-    // });
 
     this.availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
@@ -138,12 +136,13 @@ export class GameComponent implements OnInit {
         this.incrementScore(this.CORRECT_BONUS);
     }
 
-    // selectedChoice.parentElement.classList.add(classToApply);
+    const parentElement = selectedChoice.parentElement;
+    this.renderer.addClass(parentElement, classToApply);
 
-    // setTimeout(() => {
-    // selectedChoice.parentElement.classList.remove(classToApply);
-    // getNewQuestion();
-    // }, 1000);
+    setTimeout(() => {
+      this.renderer.removeClass(parentElement, classToApply);
+      this.getNewQuestion();
+    }, 1000);
   }
 
   incrementScore = (num: number) => {
