@@ -35,7 +35,7 @@ export class GameComponent implements OnInit {
     this.quizService.getQuestions().subscribe(data => {
       // let loadedQuestions: rawQuestion[] = data;
 
-      this.questions = = data.map((loadedQuestion: rawQuestion) => {
+      this.questions = data.map((loadedQuestion: rawQuestion) => {
         const formattedQuestion: Question = {
           category: loadedQuestion.category,
           difficulty: loadedQuestion.difficulty,
