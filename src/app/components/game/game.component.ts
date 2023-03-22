@@ -60,20 +60,20 @@ export class GameComponent implements OnInit {
   
   questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
     let neatQuestions: Question[] = [];
-    
-    loadedQuestions.forEach((loadedQuestion: rawQuestion) => {
-      const formattedQuestion = {
-        category: loadedQuestion.category,
-        difficulty: loadedQuestion.difficulty,
-        question: loadedQuestion.question,
+
+    for (let i = 0, n = loadedQuestions.length; i < n; i++) {
+      const formattedQuestion: Question = {
+        category: loadedQuestions[i].category,
+        difficulty: loadedQuestion[i].difficulty,
+        question: loadedQuestion[i].question,
         answer: 0,
         choices: []
       };
 
-      const answerChoices: string[] = [...loadedQuestion.incorrect_answers];
+      const answerChoices: string[] = [...loadedQuestions[i].incorrect_answers];
       formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
       // Add the correct answer to the index with the answer value
-      answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
+      answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestions[i].correct_answer);
 
       answerChoices.forEach((choice, index) => {
         // Formatting each choice
@@ -81,7 +81,7 @@ export class GameComponent implements OnInit {
       });
 
       neatQuestions.push(formattedQuestion);
-    });
+    }
 
     return neatQuestions;
   }
