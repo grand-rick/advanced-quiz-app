@@ -11,7 +11,7 @@ import { Choice } from 'src/app/models/Choice';
 })
 
 export class GameComponent implements OnInit {
-  questions: [] = [];
+  questions: Question[] = [];
   randomQuestion: Question;
 
   // availableQuestions: = [];
@@ -58,11 +58,11 @@ export class GameComponent implements OnInit {
     return formattedChoice;
   }
   
-  questionsFormatter(loadedQuestions: rawQuestion[]): [] {
-    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
+  questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
+    let neatQuestions: Question[] = [];
+    
+    loadedQuestions = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
-        category: loadedQuestion.category,
-        difficulty: loadedQuestion.difficulty,
         question: loadedQuestion.question,
         answer: 0,
         choices: []
@@ -78,7 +78,8 @@ export class GameComponent implements OnInit {
         formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
       });
 
-      return formattedQuestion;
+      neatQuestions.push(formattedQuestion);
+      return loadedQuestion;
     });
 
     return neatQuestions;
