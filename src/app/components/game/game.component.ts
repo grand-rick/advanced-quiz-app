@@ -104,7 +104,8 @@ export class GameComponent implements OnInit {
 
   getNewQuestion = () => {
     if (this.availableQuestions.length === 0 || this.questionCounter >= this.MAX_QUESTIONS) {
-      localStorage.setItem('mostRecentScore', this.score);
+      this.setMostRecentScore(this.score);
+      // localStorage.setItem('mostRecentScore', this.score);
       //go to the end page
       this.router.navigate(['/end']);
     }
