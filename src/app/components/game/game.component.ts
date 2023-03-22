@@ -27,7 +27,9 @@ export class GameComponent implements OnInit {
         difficulty: '',
         question: '',
         answer: 0,
-        choices: []
+        choices: [],
+        correct_answer: '',
+        incorrect_answers: []
       }
     }
 
