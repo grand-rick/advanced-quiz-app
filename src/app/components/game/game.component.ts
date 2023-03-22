@@ -10,48 +10,72 @@ import { Choice } from 'src/app/models/Choice';
 })
 
 export class GameComponent implements OnInit {
-  prefixAsciiValue = 65; // A
-
-  availableQuestions: Question[] = [];
+  questions: Question[] = [];
   randomQuestion: Question;
-  choices: Choice[] = []
+
+  // availableQuestions: = [];
+  
+  // currentQuestion = {};
+  // acceptingAnswers = false;
+  // score = 0;
+  // questionCounter = 0;
 
   constructor (private quizService: QuizService) {
       this.randomQuestion = {
         category: '',
         difficulty: '',
         question: '',
-        correct_answer: '',
-        incorrect_answers: ['', '', '', '']
+        answer: 0,
+        choices: []
       }
     }
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
-      this.availableQuestions = data;
-      if (this.availableQuestions.length) {
+      let loadedQuestions: [] = data;
+
+      this.questions = this.questionsFormatter(loadedQuestions);
+
+      // Change to available questions later
+      if (this.questions.length) {
         const randomIndex: number = Math.floor(Math.random() * this.availableQuestions.length);
-        this.randomQuestion = this.availableQuestions[randomIndex];
+        this.randomQuestion = this.questions[randomIndex];
       }
 
-      const unFormattedChoices: string[] = [
-        ...this.randomQuestion.incorrect_answers,
-        this.randomQuestion.correct_answer
-      ]
-
-      this.choiceHandler(unFormattedChoices);
     });
   }
 
-  choiceHandler(unFormattedChoices: string[]): void {
-    for (let i = 0, n = unFormattedChoices.length; i < n; i++) {
-      this.choices[i] = {
-        choice: unFormattedChoices[i],
-        prefix: String.fromCharCode(this.prefixAsciiValue),
+  choiceFormatter(choice: string, index: number): Choice {
+    let prefixAsciiValue = 65; // A
+
+    let formattedChoice = {
+        prefix: String.fromCharCode(prefixAsciiValue + index),
+        choice,
         data_number:  i+1
       }
-      this.prefixAsciiValue++;
-    }
+
+    return formattedChoice;
   }
   
+  questionsFormatter(loadedQuestions: []): Question[] {
+    let neatQuestions = loadedQuestions.map((loadedQuestion) => {
+      const formattedQuestion = {
+        question: loadedQuestion.question,
+      };
+
+      const answerChoices = [...loadedQuestion.incorrect_answers];
+      formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+      // Add the correct answer to the index with the answer value
+      answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
+
+      answerChoices.forEach((choice, index) => {
+        // Formatting each choice
+        formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
+      });
+      
+      return formattedQuestion;
+    });
+
+    return neatQuestions;
+  }
 }
