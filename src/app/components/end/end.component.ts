@@ -13,6 +13,7 @@ export class EndComponent implements OnInit {
   ngOnInit(): void {}
 
   saveHighScore(event: MouseEvent) : {
-
+    const selectedChoice = event.target;
+    alert("Saved");
   }
 }
