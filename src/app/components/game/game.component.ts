@@ -59,9 +59,7 @@ export class GameComponent implements OnInit {
   }
   
   questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
-    let rawQuestionInstance = new rawQuestion();
-
-    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestionInstance) => {
+    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
