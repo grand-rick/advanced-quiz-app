@@ -11,7 +11,7 @@ import { Choice } from 'src/app/models/Choice';
 })
 
 export class GameComponent implements OnInit {
-  questions: Question[] = [];
+  questions: [] = [];
   randomQuestion: Question;
 
   // availableQuestions: = [];
@@ -58,7 +58,7 @@ export class GameComponent implements OnInit {
     return formattedChoice;
   }
   
-  questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
+  questionsFormatter(loadedQuestions: rawQuestion[]): [] {
     let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
