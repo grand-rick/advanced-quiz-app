@@ -1,440 +1,439 @@
-[
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who won the FIFA World Cup in 2018?",
-        "correct_answer": "Spain",
-        "incorrect_answers": [
+[{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who won the FIFA World Cup in 2018?",
+    "correct_answer": "Spain",
+    "incorrect_answers": [
         "Brazil",
         "Germany",
         "France"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which tennis player has won the most Grand Slam titles?",
-        "correct_answer": "Roger Federer ",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which tennis player has won the most Grand Slam titles?",
+    "correct_answer": "Roger Federer ",
+    "incorrect_answers": [
         "Rafael Nadal",
         "Novak Djokovic",
         "Roger Federer "
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the highest score you can achieve in a single turn in bowling?",
-        "correct_answer": "30",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the highest score you can achieve in a single turn in bowling?",
+    "correct_answer": "30",
+    "incorrect_answers": [
         "10",
         "20",
         "40"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who holds the record for the most goals scored in a single Premier League season?",
-        "correct_answer": "Alan Shearer",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who holds the record for the most goals scored in a single Premier League season?",
+    "correct_answer": "Alan Shearer",
+    "incorrect_answers": [
         "Cristiano Ronaldo",
         "Thierry Henry",
         "Luis Suarez"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which boxer holds the record for the most heavyweight title defenses?",
-        "correct_answer": "Joe Louis",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which boxer holds the record for the most heavyweight title defenses?",
+    "correct_answer": "Joe Louis",
+    "incorrect_answers": [
         "Muhammad Ali",
         "Mike Tyson",
         "Lennox Lewis"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country won the most medals at the 2020 Tokyo Olympics?",
-        "correct_answer": "China",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country won the most medals at the 2020 Tokyo Olympics?",
+    "correct_answer": "China",
+    "incorrect_answers": [
         "United States",
         "Japan",
         "Russia"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the trophy awarded to the winner of the Super Bowl?",
-        "correct_answer": "Vince Lombardi Trophy",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the trophy awarded to the winner of the Super Bowl?",
+    "correct_answer": "Vince Lombardi Trophy",
+    "incorrect_answers": [
         "Stanley Cup",
         "Larry O'Brien Trophy",
         "Commissioner's Trophy"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who is the all-time leading scorer in NBA history?",
-        "correct_answer": "Kareem Abdul-Jabbar",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who is the all-time leading scorer in NBA history?",
+    "correct_answer": "Kareem Abdul-Jabbar",
+    "incorrect_answers": [
         "Kobe Bryant",
         "LeBron James",
         "Michael Jordan"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country has won the most medals in Olympic history?",
-        "correct_answer": "United States",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country has won the most medals in Olympic history?",
+    "correct_answer": "United States",
+    "incorrect_answers": [
         "China",
         "Russia",
         "Great Britain"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who won the Women's Singles title at Wimbledon in 2021?",
-        "correct_answer": "Ashleigh Barty",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who won the Women's Singles title at Wimbledon in 2021?",
+    "correct_answer": "Ashleigh Barty",
+    "incorrect_answers": [
         "Serena Williams",
         "Naomi Osaka",
         "Simona Halep"
-        ]
-    },
-    {
-        "question": "Which golfer has won the most major championships in history?",
-        "correct_answer": "Jack Nicklaus",
-        "incorrect_answers": [
+    ]
+},
+{
+    "question": "Which golfer has won the most major championships in history?",
+    "correct_answer": "Jack Nicklaus",
+    "incorrect_answers": [
         "Tiger Woods",
         "Arnold Palmer",
         "Gary Player"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country won the Euro 2020 soccer championship?",
-        "correct_answer": "Italy",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country won the Euro 2020 soccer championship?",
+    "correct_answer": "Italy",
+    "incorrect_answers": [
         "Germany",
         "England",
         "Spain"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the maximum number of players on a basketball team?",
-        "correct_answer": "5",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the maximum number of players on a basketball team?",
+    "correct_answer": "5",
+    "incorrect_answers": [
         "6",
         "7",
         "8"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who is the only male tennis player to achieve a Calendar-Year Grand Slam in the Open Era?",
-        "correct_answer": "Rod Laver",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who is the only male tennis player to achieve a Calendar-Year Grand Slam in the Open Era?",
+    "correct_answer": "Rod Laver",
+    "incorrect_answers": [
         "Rafael Nadal",
         "Novak Djokovic",
         "Roger Federer"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country won the Rugby World Cup in 2019?",
-        "correct_answer": "South Africa",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country won the Rugby World Cup in 2019?",
+    "correct_answer": "South Africa",
+    "incorrect_answers": [
         "New Zealand",
         "Australia",
         "England"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who is the all-time leading scorer in the history of the English Premier League?",
-        "correct_answer": "Wayne Rooney",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who is the all-time leading scorer in the history of the English Premier League?",
+    "correct_answer": "Wayne Rooney",
+    "incorrect_answers": [
         "Alan Shearer",
         "Thierry Henry",
         "Andy Cole"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the race that is considered the "most exciting two minutes in sports"?",
-        "correct_answer": "Kentucky Derby",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the race that is considered the most exciting two minutes in sports ?",
+    "correct_answer": "Kentucky Derby",
+    "incorrect_answers": [
         "Preakness Stakes",
         "Belmont Stakes",
         "Melbourne Cup"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "In which sport can a player score a "try"?",
-        "correct_answer": "Rugby",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "In which sport can a player score a try ?",
+    "correct_answer": "Rugby",
+    "incorrect_answers": [
         "Football",
         "Basketball",
         "Tennis"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who is considered the greatest basketball player of all time?",
-        "correct_answer": "Michael Jordan",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who is considered the greatest basketball player of all time?",
+    "correct_answer": "Michael Jordan",
+    "incorrect_answers": [
         "Kobe Bryant",
         "LeBron James",
         "Shaquille O'Neal"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What sport is Usain Bolt famous for?",
-        "correct_answer": "Sprinting",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What sport is Usain Bolt famous for?",
+    "correct_answer": "Sprinting",
+    "incorrect_answers": [
         "Long jump",
         "High jump",
         "Pole vaulting"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which sport uses a shuttlecock?",
-        "correct_answer": "Badminton",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which sport uses a shuttlecock?",
+    "correct_answer": "Badminton",
+    "incorrect_answers": [
         "Tennis",
         "Table tennis",
         "Squash"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the largest annual American football event?",
-        "correct_answer": "The Super Bowl",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the largest annual American football event?",
+    "correct_answer": "The Super Bowl",
+    "incorrect_answers": [
         "The World Cup",
         "The Olympics",
         "The Champions League"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "In which sport is the "hole in one" achievement possible?",
-        "correct_answer": "Golf",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "In which sport is the hole in one achievement possible?",
+    "correct_answer": "Golf",
+    "incorrect_answers": [
         "Baseball",
         "Hockey",
         "Soccer"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the term used for a perfect score of 10 in gymnastics?",
-        "correct_answer": "Perfect",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the term used for a perfect score of 10 in gymnastics?",
+    "correct_answer": "Perfect",
+    "incorrect_answers": [
         "Strike",
         "Point",
         "Score"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the famous Spanish football club that has won numerous Champions League titles?",
-        "correct_answer": "Real Madrid",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the famous Spanish football club that has won numerous Champions League titles?",
+    "correct_answer": "Real Madrid",
+    "incorrect_answers": [
         "Barcelona",
         "Atletico Madrid",
         "Valencia"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the maximum number of players allowed on a basketball court for each team?",
-        "correct_answer": "5",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the maximum number of players allowed on a basketball court for each team?",
+    "correct_answer": "5",
+    "incorrect_answers": [
         "4",
         "6",
         "7"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which sport involves wearing a helmet, shoulder pads, and tackling opponents to gain possession of a ball?",
-        "correct_answer": "American football",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which sport involves wearing a helmet, shoulder pads, and tackling opponents to gain possession of a ball?",
+    "correct_answer": "American football",
+    "incorrect_answers": [
         "Basketball",
         "Soccer",
         "Tennis"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country is known for producing some of the greatest soccer players of all time, including Pele and Ronaldo?",
-        "correct_answer": "Brazil",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country is known for producing some of the greatest soccer players of all time, including Pele and Ronaldo?",
+    "correct_answer": "Brazil",
+    "incorrect_answers": [
         "Spain",
         "Germany",
         "Italy"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "In which sport do teams compete to score goals by hitting a small ball into a net using long sticks?",
-        "correct_answer": "Field hockey",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "In which sport do teams compete to score goals by hitting a small ball into a net using long sticks?",
+    "correct_answer": "Field hockey",
+    "incorrect_answers": [
         "Ice hockey",
         "Roller hockey",
         "Street hockey"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the famous tennis tournament played on grass courts in England?",
-        "correct_answer": "Wimbledon",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the famous tennis tournament played on grass courts in England?",
+    "correct_answer": "Wimbledon",
+    "incorrect_answers": [
         "French Open",
         "US Open",
         "Australian Open"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the professional American basketball league?",
-        "correct_answer": "NBA",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the professional American basketball league?",
+    "correct_answer": "NBA",
+    "incorrect_answers": [
         "NFL",
         "NHL",
         "MLB"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "In which sport do athletes compete in a series of events including running, jumping, and throwing?",
-        "correct_answer": "Decathlon",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "In which sport do athletes compete in a series of events including running, jumping, and throwing?",
+    "correct_answer": "Decathlon",
+    "incorrect_answers": [
         "Triathlon",
         "Pentathlon",
         "Heptathlon"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the famous Spanish football club that has won numerous La Liga titles?",
-        "correct_answer": "Barcelona",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the famous Spanish football club that has won numerous La Liga titles?",
+    "correct_answer": "Barcelona",
+    "incorrect_answers": [
         "Real Madrid",
         "Atletico Madrid",
         "Valencia"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which sport involves players hitting a ball with a racket over a net and into the opponent's court?",
-        "correct_answer": "Tennis",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which sport involves players hitting a ball with a racket over a net and into the opponent's court?",
+    "correct_answer": "Tennis",
+    "incorrect_answers": [
         "Badminton",
         "Table tennis",
         "Squash"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country has won the most FIFA World Cup titles?",
-        "correct_answer": "Brazil",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "correct_answer": "Brazil",
+    "incorrect_answers": [
         "Germany",
         "Argentina",
         "Italy"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which footballer has won the most Ballon d'Or awards?",
-        "correct_answer": "Lionel Messi",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which footballer has won the most Ballon d'Or awards?",
+    "correct_answer": "Lionel Messi",
+    "incorrect_answers": [
         "Cristiano Ronaldo",
         "Pele",
         "Diego Maradona"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which team won the first ever Premier League title in the 1992-93 season?",
-        "correct_answer": "Manchester United",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which team won the first ever Premier League title in the 1992-93 season?",
+    "correct_answer": "Manchester United",
+    "incorrect_answers": [
         "Arsenal",
         "Liverpool",
         "Leeds United"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "What is the name of the famous football stadium located in Rio de Janeiro, Brazil?",
-        "correct_answer": "Maracana",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the famous football stadium located in Rio de Janeiro, Brazil?",
+    "correct_answer": "Maracana",
+    "incorrect_answers": [
         "Camp Nou",
         "Old Trafford",
         "Santiago Bernabeu"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Who is the all-time leading goal scorer for Barcelona?",
-        "correct_answer": "Lionel Messi",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Who is the all-time leading goal scorer for Barcelona?",
+    "correct_answer": "Lionel Messi",
+    "incorrect_answers": [
         "Johan Cruyff",
         "Samuel Eto'o",
         "Ronaldinho"
-        ]
-    },
-    {
-        "category": "Sports",
-        "difficulty": "easy",
-        "question": "Which country hosted the 2022 FIFA World Cup?",
-        "correct_answer": "Qatar",
-        "incorrect_answers": [
+    ]
+},
+{
+    "category": "Sports",
+    "difficulty": "easy",
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "correct_answer": "Qatar",
+    "incorrect_answers": [
         "United Arab Emirates",
         "Saudi Arabia",
         "Bahrain"
-        ]
-    }
+    ]
+}
 ]
