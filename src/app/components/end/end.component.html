@@ -2,10 +2,10 @@
     <div id="end" class="flex-center flex-column">
        <h1 id="finalScore"></h1>
        <form>
-           <input type="text" name="username" id="username" placeholder="username">
-           <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+           <input type="text" name="username" id="username" placeholder="username" [(ngModel)]="username">
+           <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore($event)">Save</button>
        </form>
-       <a class="btn" href="game.html">Play Again</a>
-       <a class="btn" href="index.html">Go Home</a>
+       <a class="btn" routerLink="/game">Play Again</a>
+       <a class="btn" routerink="/">Go Home</a>
     </div>
 </div>
