@@ -148,6 +148,6 @@ export class GameComponent implements OnInit {
 
   incrementScore = (num: number) => {
     this.score += num;
-    this.scoreText = score as unknown as string;
+    this.scoreText = this.score as unknown as string;
 };
 }
