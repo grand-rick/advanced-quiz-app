@@ -124,12 +124,12 @@ export class GameComponent implements OnInit {
     this.acceptingAnswers = true;
   };
 
-  onChoiceClick(event: MouseEvent): void {
+  onChoiceClick(choice: Choice): void {
     if (!this.acceptingAnswers) return;
 
     this.acceptingAnswers = false;
-    const selectedChoice = event.target;
-    const selectedAnswer = selectedChoice.value.id;
+    const selectedChoice = this.elementRef.nativeElement.querySelector(`p:contains(${choice})`)
+    const selectedAnswer = choice.data_number;
 
     const classToApply = (selectedAnswer == this.currentQuestion.answer) ? "correct" : "incorrect";
 
