@@ -38,7 +38,7 @@ export class GameComponent implements OnInit {
 
       // Change to available questions later
       if (this.questions.length) {
-        const randomIndex: number = Math.floor(Math.random() * this.availableQuestions.length);
+        const randomIndex: number = Math.floor(Math.random() * this.questions.length);
         this.randomQuestion = this.questions[randomIndex];
       }
 
@@ -51,15 +51,15 @@ export class GameComponent implements OnInit {
     let formattedChoice = {
         prefix: String.fromCharCode(prefixAsciiValue + index),
         choice,
-        data_number:  i+1
+        data_number:  index+1
       }
 
     return formattedChoice;
   }
   
   questionsFormatter(loadedQuestions: []): Question[] {
-    let neatQuestions = loadedQuestions.map((loadedQuestion) => {
-      const formattedQuestion = {
+    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion) => {
+      const formattedQuestion: Question = {
         question: loadedQuestion.question,
       };
 
@@ -72,7 +72,7 @@ export class GameComponent implements OnInit {
         // Formatting each choice
         formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
       });
-      
+
       return formattedQuestion;
     });
 

@@ -4,8 +4,8 @@ export class Question {
     category: string;
     difficulty: string;
     question: string;
-    answer: number
-    choices: Choice[4]
+    answer: number;
+    choices: Choice[];
 
     constructor () {
         this.category = '';
