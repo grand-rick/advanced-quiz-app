@@ -6,8 +6,8 @@ export interface Question {
     question: string;
     answer: number;
     choices: Choice[];
-    correct_answer?: string;
-    incorrect_answers?: string[];  
+    correct_answer: string;
+    incorrect_answers: string[];  
 
     // constructor () {
     //     this.category = '';

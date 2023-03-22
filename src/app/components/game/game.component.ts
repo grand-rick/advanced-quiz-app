@@ -22,15 +22,15 @@ export class GameComponent implements OnInit {
   // questionCounter = 0;
 
   constructor (private quizService: QuizService) {
-      // this.randomQuestion = {
-      //   category: '',
-      //   difficulty: '',
-      //   question: '',
-      //   answer: 0,
-      //   choices: [],
-      //   correct_answer: '',
-      //   incorrect_answers: []
-      // }
+      this.randomQuestion = {
+        category: '',
+        difficulty: '',
+        question: '',
+        answer: 0,
+        choices: [],
+        correct_answer: '',
+        incorrect_answers: []
+      }
     }
 
   ngOnInit(): void {
