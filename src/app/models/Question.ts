@@ -6,6 +6,8 @@ export class Question {
     question: string;
     answer: number;
     choices: Choice[];
+    correct_answer: string;
+    incorrect_answers: string[];
 
     constructor () {
         this.category = '';
@@ -13,5 +15,7 @@ export class Question {
         this.question = '';
         this.answer = 0;
         this.choices= [];
+        this.correct_answer = '';
+        this.incorrect_answers = [];
     }
 }
