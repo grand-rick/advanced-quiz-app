@@ -1,4 +1,5 @@
 import { Component, OnInit, Renderer2, ElementRef  } from '@angular/core';
+import { Router } from '@angular/router';
 import { QuizService } from 'src/app/services/quiz.service';
 import { Question } from 'src/app/models/Question';
 import { rawQuestion } from 'src/app/models/rawQuestion';
@@ -25,7 +26,7 @@ export class GameComponent implements OnInit {
   questionCounter: number = 0;
   scoreText: string = '0';
 
-  constructor (private quizService: QuizService, private renderer: Renderer2, private elementRef: ElementRef) {
+  constructor (private quizService: QuizService, private renderer: Renderer2, private elementRef: ElementRef, private router: Router) {
       this.currentQuestion = {
         category: '',
         difficulty: '',
@@ -104,7 +105,7 @@ export class GameComponent implements OnInit {
     if (this.availableQuestions.length === 0 || this.questionCounter >= this.MAX_QUESTIONS) {
       localStorage.setItem('mostRecentScore', this.score);
       //go to the end page
-      return window.location.assign('/end');
+      this.router.navigate(['/end']);
     }
     this.questionCounter++;
 
