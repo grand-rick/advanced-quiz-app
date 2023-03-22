@@ -1,9 +1,11 @@
+import { Choice } from './Choice';
+
 export class Question {
     category: string;
     difficulty: string;
     question: string;
     answer: number
-    choices: string[4]
+    choices: Choice[4]
 
     constructor () {
         this.category = '';
