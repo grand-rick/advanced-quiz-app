@@ -61,7 +61,7 @@ export class GameComponent implements OnInit {
   questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
     let neatQuestions: Question[] = [];
     
-    loadedQuestions = loadedQuestions.map((loadedQuestion: rawQuestion) => {
+    loadedQuestions.forEach((loadedQuestion: rawQuestion) => {
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
@@ -81,7 +81,6 @@ export class GameComponent implements OnInit {
       });
 
       neatQuestions.push(formattedQuestion);
-      return loadedQuestion;
     });
 
     return neatQuestions;
