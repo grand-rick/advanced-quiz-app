@@ -92,7 +92,7 @@ export class GameComponent implements OnInit {
   startGame(): void {
     this.questionCounter = 0;
     this.score = 0;
-    this.availableQuestions = [...questions].slice(0, NUM_OF_QUESTIONS);
+    this.availableQuestions = [...this.questions].slice(0, this.NUM_OF_QUESTIONS);
     this.getNewQuestion();
 
     const game = this.elementRef.nativeElement.querySelector('#game');
@@ -104,7 +104,7 @@ export class GameComponent implements OnInit {
 
   getNewQuestion = () => {
     if (this.availableQuestions.length === 0 || this.questionCounter >= this.MAX_QUESTIONS) {
-      this.setMostRecentScore(this.score);
+      this.quizService.setMostRecentScore(this.score);
       // localStorage.setItem('mostRecentScore', this.score);
       //go to the end page
       this.router.navigate(['/end']);
@@ -121,15 +121,15 @@ export class GameComponent implements OnInit {
     this.currentQuestion = this.availableQuestions[questionIndex];
 
     this.availableQuestions.splice(questionIndex, 1);
-    acceptingAnswers = true;
+    this.acceptingAnswers = true;
   };
 
   onChoiceClick(event: MouseEvent): void {
-    if (!acceptingAnswers) return;
+    if (!this.acceptingAnswers) return;
 
-    acceptingAnswers = false;
+    this.acceptingAnswers = false;
     const selectedChoice = event.target;
-    const selectedAnswer = selectedChoice.id;
+    const selectedAnswer = selectedChoice.value.id;
 
     const classToApply = (selectedAnswer == this.currentQuestion.answer) ? "correct" : "incorrect";
 
