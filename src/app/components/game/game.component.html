@@ -22,9 +22,7 @@
         <h2>{{currentQuestion.question}}</h2>
         <div class="choice-container" *ngFor="let choice of currentQuestion.choices">
           <p class="choice-prefix">{{choice.prefix}}</p>
-          <p class="choice-text" [id]="choice.data_number" (click)="onChoiceClick($event)">{{choice.choice}}</p>
+          <p class="choice-text" [id]="choice.data_number" (click)="onChoiceClick(choice)">{{choice.choice}}</p>
         </div>
     </div>
 </div>
-
-<!-- REMEMBER TO CHANGE FROM EVENT TO CHOICE -->
