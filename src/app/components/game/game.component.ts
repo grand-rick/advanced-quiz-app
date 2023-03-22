@@ -33,9 +33,29 @@ export class GameComponent implements OnInit {
 
   ngOnInit(): void {
     this.quizService.getQuestions().subscribe(data => {
-      let loadedQuestions: rawQuestion[] = data;
+      // let loadedQuestions: rawQuestion[] = data;
 
-      this.questions = this.questionsFormatter(loadedQuestions);
+      this.questions = = data.map((loadedQuestion: rawQuestion) => {
+        const formattedQuestion: Question = {
+          category: loadedQuestion.category,
+          difficulty: loadedQuestion.difficulty,
+          question: loadedQuestion.question,
+          answer: 0,
+          choices: []
+        };
+  
+        const answerChoices = [...loadedQuestion.incorrect_answers];
+        formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+        // Add the correct answer to the index with the answer value
+        answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
+  
+        answerChoices.forEach((choice, index) => {
+          // Formatting each choice
+          formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
+        });
+  
+        return formattedQuestion;
+      });
 
       // Change to available questions later
       if (this.questions.length) {
@@ -58,29 +78,9 @@ export class GameComponent implements OnInit {
     return formattedChoice;
   }
   
-  questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
-    let neatQuestions: Question[] = loadedQuestions.map((loadedQuestion: rawQuestion) => {
-      const formattedQuestion: Question = {
-        category: loadedQuestion.category,
-        difficulty: loadedQuestion.difficulty,
-        question: loadedQuestion.question,
-        answer: 0,
-        choices: []
-      };
+  // questionsFormatter(loadedQuestions: rawQuestion[]): Question[] {
+  //   let neatQuestions: Question[] 
 
-      const answerChoices = [...loadedQuestion.incorrect_answers];
-      formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
-      // Add the correct answer to the index with the answer value
-      answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
-
-      answerChoices.forEach((choice, index) => {
-        // Formatting each choice
-        formattedQuestion.choices[index] = this.choiceFormatter(choice, index);
-      });
-
-      return formattedQuestion;
-    });
-
-    return neatQuestions;
-  }
+  //   return neatQuestions;
+  // }
 }
