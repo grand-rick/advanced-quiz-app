@@ -435,5 +435,443 @@
         "Saudi Arabia",
         "Bahrain"
     ]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which mammal can hold their breath the longest?",
+	"correct_answer": "Cuvier’s Beaked Whale",
+	"incorrect_answers": [
+		"Human Being",
+		"Spiny Ant Eater",
+		"Polar Bear"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the color of a Polar Bear’s Tongue?",
+	"correct_answer": "Blue",
+	"incorrect_answers": [
+		"Red",
+		"White",
+		"Pink"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which mammal has the longest pregnancy?",
+	"correct_answer": "Elephant",
+	"incorrect_answers": [
+		"Human",
+		"Dog",
+		"Rabbit"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is a baby rabbit called?",
+	"correct_answer": "Kit",
+	"incorrect_answers": [
+		"Kid",
+		"Kitten",
+		"Cub"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which animal sleeps for most of the day?",
+	"correct_answer": "Koala",
+	"incorrect_answers": [
+		"Kangaroo",
+		"Rhino",
+		"Hippopotamus"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is Rhino Horn made of?",
+	"correct_answer": "Hair",
+	"incorrect_answers": [
+		"Bone",
+		"Fats",
+		"Skin"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the biggest bird in the word?",
+	"correct_answer": "Ostrich",
+	"incorrect_answers": [
+		"Pigeon",
+		"Swan",
+		"Penguin"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which Is the only bird that can fly backwards?",
+	"correct_answer": "Hummingbird",
+	"incorrect_answers": [
+		"Ostrich",
+		"Sparrow",
+		"Eagle"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many layers of skin does a chameleon have?",
+	"correct_answer": "Four",
+	"incorrect_answers": [
+		"One",
+		"Five",
+		"Two"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the longest snake in the world?",
+	"correct_answer": "Reticulated Python",
+	"incorrect_answers": [
+		"Indian Cobra",
+		"Russell’s Viper",
+		"Black Mamba"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which reptile can breathe out of their butts?",
+	"correct_answer": "Turtles",
+	"incorrect_answers": [
+		"Crocodiles",
+		"Lizard",
+		"Caiman"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What do butterflies use to taste their food?",
+	"correct_answer": "Feet",
+	"incorrect_answers": [
+		"Tongue",
+		"Wings",
+		"Abdomen"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Where are crickets’ ears?",
+	"correct_answer": "On their feet",
+	"incorrect_answers": [
+		"On their head",
+		"On their abdomen",
+		"On their tail"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the loudest insect?",
+	"correct_answer": "Cicada",
+	"incorrect_answers": [
+		"Cricket",
+		"Wasp",
+		"Bee"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the smallest insect in the world?",
+	"correct_answer": "Fairyfly",
+	"incorrect_answers": [
+		"Fruit fly",
+		"Praying Mantis",
+		"Ant"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which is the fastest fish in the world?",
+	"correct_answer": "Sailfish",
+	"incorrect_answers": [
+		"Shark",
+		"Whale",
+		"Catfish"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which was the first animal to be domesticated?",
+	"correct_answer": "Goat",
+	"incorrect_answers": [
+		"Sheep",
+		"Cow",
+		"Bull"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "On what continent do most wild lions live?",
+	"correct_answer": "Africa",
+	"incorrect_answers": [
+		"Asia",
+		"Australia and New Zealand",
+		"South America"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which is the largest living land animal?",
+	"correct_answer": "African Bush Elephant",
+	"incorrect_answers": [
+		"Cuvier’s Beaked Whale",
+		"Kubu Hippopotamus",
+		"Javan Rhinoceros"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the most poisonous spider in the world?",
+	"correct_answer": "Sydney Funnel Web-Spider",
+	"incorrect_answers": [
+		"Wolf Spider",
+		"Widow Spider",
+		"Tarantulas Spider"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What is the only continent in the world with no butterflies??",
+	"correct_answer": "Antarctica",
+	"incorrect_answers": [
+		"North America",
+		"Australia and New Zealand",
+		"North Asia"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many hearts do octopuses have?",
+	"correct_answer": "Three",
+	"incorrect_answers": [
+		"Two",
+		"One",
+		"Eight"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which fish species is the most poisonous?",
+	"correct_answer": "Stonefish",
+	"incorrect_answers": [
+		"Hydra",
+		"Starfish",
+		"Catfish"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Where is the heart of a shrimp located?",
+	"correct_answer": "In its Head",
+	"incorrect_answers": [
+		"In its Legs",
+		"In its Abdomen",
+		"It has no heart"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What color are the fur of Polar Bears?",
+	"correct_answer": "White",
+	"incorrect_answers": [
+		"Transparent",
+		"Black",
+		"Grey"
+	]
+}, {
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many eyes do caterpillars have?",
+	"correct_answer": "Twelve",
+	"incorrect_answers": [
+		"Ten",
+		"Eight",
+		"Fourteen"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What are the only species of cats that live in groups?",
+	"correct_answer": "Lions",
+	"incorrect_answers": [
+		"Leopard",
+		"Black Panthers",
+		"Cheetahs"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many pairs of eyes do scorpions have?",
+	"correct_answer": "Two",
+	"incorrect_answers": [
+		"Five",
+		"Ten",
+		"One"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which bird is a symbol of peace?",
+	"correct_answer": "Dove",
+	"incorrect_answers": [
+		"Flamingo",
+		"Duck",
+		"Parrot"
+	]
+}, {
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many humps do Bactrian Camel have?",
+	"correct_answer": "Two",
+	"incorrect_answers": [
+		"One",
+		"Three",
+		"Four"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which animal is the tallest in the world?",
+	"correct_answer": "Giraffe",
+	"incorrect_answers": [
+		"Kangaroo",
+		"Whale",
+		"Ostrich"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which dog breed has a black tongue?",
+	"correct_answer": "Chow Chow",
+	"incorrect_answers": [
+		"Bull Dog",
+		"German Shepherds",
+		"Golden Retriever"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which bird has the largest wingspan?",
+	"correct_answer": "Wandering Albatross",
+	"incorrect_answers": [
+		"Eagle",
+		"Vulture",
+		"Crane"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which bird has a brain smaller than its eyes?",
+	"correct_answer": "Ostrich",
+	"incorrect_answers": [
+		"Pigeon",
+		"Peacock",
+		"Sparrow"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "How many rows of teeth do sharks have?",
+	"correct_answer": "Five",
+	"incorrect_answers": [
+		"Four",
+		"Two",
+		"Six"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which mammal has the most powerful bite in the world?",
+	"correct_answer": "Hippopotamus",
+	"incorrect_answers": [
+		"Human Being",
+		"Dog",
+		"Shark"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What bird that cannot fly is the national symbol of New Zealand?",
+	"correct_answer": "Kiwi",
+	"incorrect_answers": [
+		"Kangaroo",
+		"Ostrich",
+		"Peacock"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "Which breed of cat has no tail?",
+	"correct_answer": "Manx",
+	"incorrect_answers": [
+		"Persian",
+		"Maine Coon",
+		"Ragdoll"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What color is the blood of an octopus?",
+	"correct_answer": "Blue",
+	"incorrect_answers": [
+		"Red",
+		"Pink",
+		"Maroon"
+	]
+},
+{
+	"category": "Animals",
+	"difficulty": "easy",
+	"question": "What bird was the first to be domesticated?",
+	"correct_answer": "Goose",
+	"incorrect_answers": [
+		"Hen",
+		"Pigeon",
+		"Chicken"
+	]
 }
 ]
