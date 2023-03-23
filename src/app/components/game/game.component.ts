@@ -92,7 +92,7 @@ export class GameComponent implements OnInit {
   startGame(): void {
     this.questionCounter = 0;
     this.score = 0;
-    this.availableQuestions = [...this.questions].slice(0, this.NUM_OF_QUESTIONS);
+    this.availableQuestions = [...this.questions];
     this.getNewQuestion();
 
     const game = this.elementRef.nativeElement.querySelector('#game');
