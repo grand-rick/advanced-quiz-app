@@ -1,14 +1,28 @@
-<div class="container">
+<!-- <div class="container">
     <div class="accordion">
         <div class="accordion-item" *ngFor="let item of items">
           <div class="accordion-header" (click)="toggleAccordion(item)">
             {{ item.title }}
             <i class="material-icons">{{ item.isOpen ? 'expand_less' : 'expand_more' }}</i>
           </div>
-          <div class="accordion-content" [hidden]="!item.isOpen">
-            {{ item.content }}
-          </div>
+          
         </div>
     </div>
 </div>
-  
+   -->
+
+<form (ngSubmit)="onSubmit()" class="selector">
+    <div class="selector_head">
+        <h2 class="selector_title">Select Your Category</h2>
+    </div>
+    <div class="selector_body">
+        <div class="selector_item" *ngFor="let category of categories">
+            <input type="radio" class="selector_input" name="category" id={{category}}>
+            <label class="selector_label" for={{category}} (click)="showSubmitBtn(category)"><span>{{category}}</span></label>
+        </div>
+        <div class="submitBtnParent" [hidden]="isChosen">
+            <button type="submit" class="submitBtn">Okay</button>    
+        </div>
+    </div>
+</form>
+
