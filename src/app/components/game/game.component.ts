@@ -15,7 +15,7 @@ export class GameComponent implements OnInit {
   questions: Question[] = [];
   availableQuestions: Question[] = [];
   currentQuestion: Question;
-  selectedCategory: string = '';
+  selectedCategory: string;
 
   //CONSTANTS
   NUM_OF_QUESTIONS: number = 10;
@@ -39,7 +39,7 @@ export class GameComponent implements OnInit {
         incorrect_answers: []
       }
 
-      this.selectedCategory = '';
+      this.selectedCategory = this.quizService.getSelectedCategory();
     }
 
   ngOnInit(): void {
