@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 import { QuizService } from 'src/app/services/quiz.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class EndComponent implements OnInit {
   username: string = '';
   finalScore: number;
 
-  constructor (private quizService: QuizService) {
+  constructor (private quizService: QuizService, private router: Router) {
     this.finalScore = this.quizService.getFinalScore();
   }
 
@@ -18,5 +19,6 @@ export class EndComponent implements OnInit {
 
   saveHighScore(): void{
     this.quizService.addPlayer(this.username);
+    this.router.navigate(['/']);
   }
 }
