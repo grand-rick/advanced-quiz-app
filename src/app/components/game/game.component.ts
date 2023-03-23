@@ -15,6 +15,7 @@ export class GameComponent implements OnInit {
   questions: Question[] = [];
   availableQuestions: Question[] = [];
   currentQuestion: Question;
+  selectedCategory: string = '';
 
   //CONSTANTS
   NUM_OF_QUESTIONS: number = 10;
@@ -37,6 +38,8 @@ export class GameComponent implements OnInit {
         correct_answer: '',
         incorrect_answers: []
       }
+
+      this.selectedCategory = '';
     }
 
   ngOnInit(): void {
@@ -63,6 +66,9 @@ export class GameComponent implements OnInit {
     let neatQuestions: Question[] = [];
     
     loadedQuestions.forEach((loadedQuestion: rawQuestion) => {
+      if (loadedQuestion.category !== this.selectedCategory) {
+        return;
+      }
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
