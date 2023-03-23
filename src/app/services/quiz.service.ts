@@ -14,6 +14,14 @@ export class QuizService {
   score: number = 0;
   selectedCategory: string = '';
 
+  categories: string[] = [
+    'Sports',
+    'Animals',
+    'Technology',
+    'War',
+    'Education'
+  ];
+
   constructor(private http: HttpClient) { }
 
   getQuestions(): Observable<Question[]> {
@@ -58,5 +66,9 @@ export class QuizService {
 
   getSelectedCategory(): string {
     return this.selectedCategory;
+  }
+
+  getAllCategories(): string[] {
+    return this.categories;
   }
 }
