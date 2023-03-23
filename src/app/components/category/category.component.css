@@ -1,24 +1,116 @@
-.accordion {
+.selector {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-  }
-  
-  .accordion-item {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .accordion-header {
+    background-color: #fff;
+    border: 2px solid #3b8add;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.selector_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #3b8add;
+}
+
+.selector_title {
+    font-weight: bold;
+    font-style: 18px;
+    color: #000;
+}
+
+.selector_body {
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selector_item {
+    display: block;
+    width: 100%;
+}
+
+.selector_item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.selector_input {
+    position: absolute;
+    left: -999px;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.selector_label {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
     padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
     cursor: pointer;
-  }
-  
-  .accordion-content {
-    padding: 10px;
-  }
-  
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.selector_label:before {
+    content: '';
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ddd;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.selector_input:checked ~ .selector_label {
+    border-color: #3b8add;
+}
+
+.selector_input:checked ~ .selector_label:before {
+    background-color: #3b8add;
+}
+
+.submitBtnParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBtn {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
