@@ -4,12 +4,14 @@ import { HomeComponent } from './components/home/home.component';
 import { GameComponent } from './components/game/game.component';
 import { HighScoresComponent } from './components/high-scores/high-scores.component';
 import { EndComponent } from './components/end/end.component';
+import { CategoryComponent } from './components/category/category.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'game', component: GameComponent },
   { path: 'high-scores', component: HighScoresComponent },
-  { path: 'end', component: EndComponent }
+  { path: 'end', component: EndComponent },
+  { path: 'category', component: CategoryComponent }
 ];
 
 @NgModule({
