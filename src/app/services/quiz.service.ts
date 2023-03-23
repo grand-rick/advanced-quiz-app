@@ -12,6 +12,7 @@ export class QuizService {
   // questions: Question[] = [];
   players: Player[] = [];
   score: number = 0;
+  selectedCategory: string = '';
 
   constructor(private http: HttpClient) { }
 
@@ -48,5 +49,14 @@ export class QuizService {
     }
     
     return this.players;
+  }
+
+  setSelectedCategory(category: string): string {
+    this.selectedCategory = category;
+    return this.selectedCategory;
+  }
+
+  getSelectedCategory(): string {
+    return this.selectedCategory;
   }
 }
