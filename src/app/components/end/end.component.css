@@ -1,5 +1,5 @@
 .error-message {
-    color: red;
+    color: red !important;
     margin-bottom: 10px;
     font-size: 20px;
 }
