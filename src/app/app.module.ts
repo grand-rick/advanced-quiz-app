@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { GameComponent } from './components/game/game.component';
 import { HighScoresComponent } from './components/high-scores/high-scores.component';
 import { EndComponent } from './components/end/end.component';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EndComponent } from './components/end/end.component';
     HomeComponent,
     GameComponent,
     HighScoresComponent,
-    EndComponent
+    EndComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
