@@ -8,7 +8,7 @@
                 <input type="radio" class="selector_input" name="category" id={{category}}>
                 <label class="selector_label" for={{category}} (click)="showSubmitBtn(category)"><span>{{category}}</span></label>
             </div>
-            <div class="submitBtnParent" [hidden]="isChosen">
+            <div class="submitBtnParent" [hidden]="!isChosen">
                 <button type="submit" class="submitBtn">Okay</button>    
             </div>
         </div>
