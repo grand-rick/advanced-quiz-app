@@ -8,6 +8,7 @@ import { QuizService } from 'src/app/services/quiz.service';
   styleUrls: ['./category.component.css']
 })
 export class CategoryComponent implements OnInit {
+  categories: string[] = this.quizService.getAllCategories();
   isChosen: boolean = false;
 
   constructor (private quizService: QuizService, private router: Router) {}
