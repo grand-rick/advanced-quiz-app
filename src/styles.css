@@ -126,7 +126,7 @@ input::placeholder {
 }
 
 .error-message {
-  color: red !important;
+  color: red;
   margin-bottom: 10px;
   font-size: 20px;
   text-transform: uppercase;
