@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Question } from 'src/app/models/Question';
+import { Player } from 'src/app/models/Player';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -9,6 +10,7 @@ import { Observable } from 'rxjs';
 
 export class QuizService {
   // questions: Question[] = [];
+  players: Player[] = [];
   score: number = 0;
 
   constructor(private http: HttpClient) { }
@@ -24,5 +26,28 @@ export class QuizService {
 
   getFinalScore(): number {
     return this.score;
+  }
+
+  getPlayers(): Player[] {
+    return this.players;
+  }
+
+  addPlayer(name: string): Player[] {
+    const playerIndex = this.players.findIndex((player) => player.name === name);
+
+    // If the player already Exists update the score otherwise add them to the list
+    if (playerIndex !== -1) {
+      this.players[playerIndex].score = this.score;
+      return this.players;
+    } else {
+      const newPlayer: Player = {
+        name,
+        score: this.score
+      }
+      
+      this.players.push(newPlayer);
+    }
+    
+    return this.players;
   }
 }
