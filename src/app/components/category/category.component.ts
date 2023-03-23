@@ -1,24 +1,25 @@
-import { Component } from '@angular/core';
-
-interface AccordionItem {
-  title: string;
-  content: string;
-  isOpen: boolean;
-}
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { QuizService } from 'src/app/services/quiz.service';
 
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
   styleUrls: ['./category.component.css']
 })
-export class CategoryComponent {
-  public items: AccordionItem[] = [
-    { title: 'Item 1', content: 'This is the content for item 1.', isOpen: false },
-    { title: 'Item 2', content: 'This is the content for item 2.', isOpen: false },
-    { title: 'Item 3', content: 'This is the content for item 3.', isOpen: false },
-  ];
+export class CategoryComponent implements OnInit {
+  isChosen: boolean = false;
 
-  public toggleAccordion(item: AccordionItem): void {
-    item.isOpen = !item.isOpen;
+  constructor (private quizService: QuizService, private router: Router) {}
+
+  ngOnInit(): void {}
+
+  showSubmitBtn(category: string): void {
+  this.isChosen = true;
+  this.quizService.setSelectedCategory(category);
+  }
+
+  onSubmit(): void {
+  this.router.navigate(['/lobby']);
   }
 }
