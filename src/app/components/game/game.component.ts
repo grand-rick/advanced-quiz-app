@@ -19,7 +19,7 @@ export class GameComponent implements OnInit {
   //CONSTANTS
   NUM_OF_QUESTIONS: number = 10;
   CORRECT_BONUS: number = 10;
-  MAX_QUESTIONS: number = 3;
+  MAX_QUESTIONS: number = 5;
 
   acceptingAnswers: boolean = false;
   score: number = 0;
