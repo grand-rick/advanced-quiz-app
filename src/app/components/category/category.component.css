@@ -109,8 +109,8 @@
 }
 
 .submitBtn {
-    color: orange;
-    font-weight: green;
+    color: green;
+    font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
 }
