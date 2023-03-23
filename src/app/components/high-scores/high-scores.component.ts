@@ -8,7 +8,7 @@ import { Player } from 'src/app/models/Player';
   styleUrls: ['./high-scores.component.css']
 })
 export class HighScoresComponent implements OnInit {
-  players: Player[] = this.quizService.getPlayers();
+  players: Player[] = this.quizService.getPlayers().slice(0, 5);
 
   constructor (private quizService: QuizService) {}
 
