@@ -16,7 +16,7 @@ export class EndComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  // saveHighScore() : {
-  //   alert(`Saved, ${this.username}`);
-  // }
+  saveHighScore(): void{
+    this.quizService.addPlayer(this.username);
+  }
 }
