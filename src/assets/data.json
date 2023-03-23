@@ -2,11 +2,11 @@
     "category": "Sports",
     "difficulty": "easy",
     "question": "Who won the FIFA World Cup in 2018?",
-    "correct_answer": "Spain",
+    "correct_answer": "France",
     "incorrect_answers": [
         "Brazil",
         "Germany",
-        "France"
+        "Spain"
     ]
 },
 {
