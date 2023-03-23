@@ -12,7 +12,7 @@ export class EndComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  saveHighScore() : {
-    alert(`Saved, ${this.username}`);
-  }
+  // saveHighScore() : {
+  //   alert(`Saved, ${this.username}`);
+  // }
 }
