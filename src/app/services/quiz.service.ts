@@ -21,4 +21,8 @@ export class QuizService {
     this.score = score;
     return this.score;
   }
+
+  getFinalScore(): number {
+    return this.score;
+  }
 }
