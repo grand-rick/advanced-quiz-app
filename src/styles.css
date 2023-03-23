@@ -2,6 +2,9 @@
 :root {
   background-color: #ecf5ff;
   font-size: 62.5%;
+  /* --theme-color: #2F0743; */
+  --theme-color: #2c7744;
+  --theme-color-80: #2c774480;
 }
 
 * {
@@ -22,7 +25,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: var(--theme-color);
   margin-bottom: 5rem;
 }
 
@@ -87,16 +90,16 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid var(--theme-color);
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: var(--theme-color);
   background-color: white;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 var(--theme-color-80);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -121,7 +124,7 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.1rem 1.4rem 0 var(--theme-color-80);
 }
 
 input::placeholder {
