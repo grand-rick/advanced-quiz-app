@@ -38,13 +38,12 @@ export class QuizService {
     // If the player already Exists update the score otherwise add them to the list
     if (playerIndex !== -1) {
       this.players[playerIndex].score = this.score;
-      return this.players;
     } else {
       const newPlayer: Player = {
         name,
         score: this.score
       }
-      
+
       this.players.push(newPlayer);
     }
     
