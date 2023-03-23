@@ -13,11 +13,11 @@
     "category": "Sports",
     "difficulty": "easy",
     "question": "Which tennis player has won the most Grand Slam titles?",
-    "correct_answer": "Roger Federer ",
+    "correct_answer": "Roger Federer",
     "incorrect_answers": [
         "Rafael Nadal",
         "Novak Djokovic",
-        "Roger Federer "
+        "Paulinho"
     ]
 },
 {
