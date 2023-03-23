@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { QuizService } from 'src/app/services/quiz.service';
 
 @Component({
   selector: 'app-end',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EndComponent implements OnInit {
   username: string = '';
+  finalScore: number;
 
-  constructor () {}
+  constructor (private quizService: QuizService) {
+    this.finalScore = this.quizService.getFinalScore();
+  }
 
   ngOnInit(): void {}
 
