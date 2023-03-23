@@ -874,5 +874,445 @@
 		"Pigeon",
 		"Chicken"
 	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Who is the current president of Kenya?",
+	"correct_answer": "William Ruto",
+	"incorrect_answers": [
+	"Daniel Moi",
+	"Uhuru Kenyatta",
+	"Raila Odinga"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which among the following is not a subject taught in High school?",
+	"correct_answer": "Science",
+	"incorrect_answers": [
+	"Biology",
+	"Physics",
+	"History"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Apply a question tag; You were at the party, ?",
+	"correct_answer": "Weren't you",
+	"incorrect_answers": [
+	"Aren't you",
+	"Are you",
+	"Did you"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which gas is NOT found in the earth's atmosphere",
+	"correct_answer": "Nitrogen(i)oxide",
+	"incorrect_answers": [
+	"Oxygen",
+	"Nitrogen",
+	"Carbon di oxide"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The following are farm tools which one is NOT",
+	"correct_answer": "Knife",
+	"incorrect_answers": [
+	"Panga",
+	"Sickle",
+	"Jembe"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Who among the following was in the Kapenguria six?",
+	"correct_answer": "Bildad Kagia",
+	"incorrect_answers": [
+	"Oginga Odinga",
+	"Tom Mboya",
+	"Josephat Murumbi"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which one of the following plants is not an example of a legume crop?",
+	"correct_answer": "Wheat",
+	"incorrect_answers": [
+	"Bean",
+	"Lentils",
+	"Groundnuts"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The blood vessel that carries blood with less oxygen to the heart is the ________",
+	"correct_answer": "Venacava",
+	"incorrect_answers": [
+	"Pulmonary vein",
+	"Aorta",
+	"Pulmonary artery"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which one of the following is not an organ of respiratory system?",
+	"correct_answer": "Ribs",
+	"incorrect_answers": [
+	"Diaphragm",
+	"Bronchi",
+	"Bronchioles"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which of the following is not a pastoral community in Africa?",
+	"correct_answer": "Lozi",
+	"incorrect_answers": [
+	"Karamajong",
+	"Tswana",
+	"Maasai"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which of the following industries in Kenya is correctly matched with the town it is located?",
+	"correct_answer": "Salt making - Malindi",
+	"incorrect_answers": [
+	"Oil refining - Athi River",
+	"Vehicle assembling - Kisumu",
+	"Cement manufacturing - Nairobi"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The lake described above is?",
+	"correct_answer": "Lake Tanganyika",
+	"incorrect_answers": [
+	"Lake Victoria",
+	"Lake Mweru",
+	"Lake Kivu"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The last white governor in Kenya at the time of independence was______",
+	"correct_answer": "Sir M.J. MacDonald",
+	"incorrect_answers": [
+	"Fredrick Lugard",
+	"Sir Charles Elliot",
+	"Sir Evelyn Baring"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which of these countries is landlocked?",
+	"correct_answer": "Lesotho",
+	"incorrect_answers": [
+	"Ghana",
+	"Angola",
+	"Tanzania"
+]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "In which of the following pre-historic sites were the fossils of homo erectus discovered in Eastern Africa?",
+	"correct_answer": "Olduvai George",
+	"incorrect_answers": [
+	"Faiyum Depression",
+	"Fort Ternan",
+	"Rusinga Island"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The final judge among the Baganda people in the Buganda kingdom was________",
+	"correct_answer": "The King",
+	"incorrect_answers": [
+	"Omwanika",
+	"Omulamuzi",
+	"The clan head"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which of the following is not a responsibility of the IEBC?",
+	"correct_answer": "Swearing in the MPs",
+	"incorrect_answers": [
+	"Registering voters",
+	"Conducting civic education",
+	"Announcing election results"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "How many bones are in the human body¬?",
+	"correct_answer": "206",
+	"incorrect_answers": [
+	"210",
+	"100",
+	"33"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "The concept of gravity was discovered by which famous physicist?",
+	"correct_answer": "Isaac Newton",
+	"incorrect_answers": [
+	"Stephen Hawking",
+	"Michael Faraday",
+	"Albert Einstein"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the hardest natural substance on earth?",
+	"correct_answer": "Diamond",
+	"incorrect_answers": [
+	"Iron",
+	"Teeth",
+	"Stone"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the biggest planet in our solar system?",
+	"correct_answer": "Jupiter",
+	"incorrect_answers": [
+	"Uranus",
+	"Earth",
+	"Mars"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What name is given for the number of protons found in the nucleus of an atom?",
+	"correct_answer": "Atomic number",
+	"incorrect_answers": [
+	"Electrons",
+	"Neutrons",
+	"Mass number"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "How many vertebrae does the average human possess?",
+	"correct_answer": "33",
+	"incorrect_answers": [
+	"30",
+	"25",
+	"15"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is a material that will not carry any electrical charge called?",
+	"correct_answer": "Insulator",
+	"incorrect_answers": [
+	"Conductor",
+	"Semiconductor",
+	"Superconductor"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "How many teeth does an adult human have?",
+	"correct_answer": "32",
+	"incorrect_answers": [
+	"28",
+	"30",
+	"20"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the only letter to not appear in a periodic table?",
+	"correct_answer": "J",
+	"incorrect_answers": [
+	"K",
+	"C",
+	"B"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the fastest land animal?",
+	"correct_answer": "Cheetah",
+	"incorrect_answers": [
+	"Tiger",
+	"Lion",
+	"Leopard"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the only even prime number?",
+	"correct_answer": "2",
+	"incorrect_answers": [
+	"0",
+	"3",
+	"4"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the perimeter of a circle called?",
+	"correct_answer": "Circumference",
+	"incorrect_answers": [
+	"Width",
+	"Radius",
+	"Length"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Which of the world's oceans is the deepest?",
+	"correct_answer": "Pacific Ocean",
+	"incorrect_answers": [
+	"Mediterranean Sea",
+	"Atlantic Ocean",
+	"Indian Ocean"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Who is credited with the creation of worldwide web?",
+	"correct_answer": "Tim Berners-Lee",
+	"incorrect_answers": [
+	"Charles Babbage",
+	"Gary Kildall",
+	"John McCarthy"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "Where in the human body can the smallest bone be found?",
+	"correct_answer": "The ear",
+	"incorrect_answers": [
+	"The nose",
+	"The neck",
+	"The tongue"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the largest desert in the world?",
+	"correct_answer": "Antarctica",
+	"incorrect_answers": [
+	"Oleshky Sands",
+	"Sahara",
+	"Chihuahuan"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the heaviest organ in the body?",
+	"correct_answer": "Liver",
+	"incorrect_answers": [
+	"Tongue",
+	"Stomach",
+	"Pancreas"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the rarest blood type in humans?",
+	"correct_answer": "AB Negative",
+	"incorrect_answers": [
+	"B",
+	"A",
+	"O"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "In which year was Pluto declared a dwarf planet?",
+	"correct_answer": "2006",
+	"incorrect_answers": [
+	"2010",
+	"2005",
+	"2008"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What metal is the best conductor of electricity?",
+	"correct_answer": "Silver",
+	"incorrect_answers": [
+	"Aluminum",
+	"Cooper",
+	"Steel"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "How many bones do sharks have?",
+	"correct_answer": "Zero",
+	"incorrect_answers": [
+	"One",
+	"Fifty",
+	"Ten"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "What is the study of mushrooms?",
+	"correct_answer": "Mycology",
+	"incorrect_answers": [
+	"Anatomy",
+	"Entomology",
+	"Ornithology"
+	]
+},
+{
+	"category": "Education",
+	"difficulty": "easy",
+	"question": "How many continents are in the world?",
+	"correct_answer": "Eight",
+	"incorrect_answers": [
+	"Five",
+	"Six",
+	"Ten"
+	]
 }
 ]
