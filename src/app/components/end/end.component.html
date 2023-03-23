@@ -3,19 +3,19 @@
        <h1 id="finalScore">{{finalScore}}</h1>
         
        <form #form="ngForm" (ngSubmit)="saveHighScore()">
-            <!-- ERROR MESSAGE -->
-            <div class="error-message" *ngIf="userName.invalid && (userName.dirty || userName.touched)">
-                <div *ngIf="userName.errors?.['required']">
-                Please provide a username.
-                </div>
-                <div *ngIf="userName.errors?.['minlength']">
-                The username must contain at least 4 characters.
-                </div>
-            </div>
-            <!-- END OF ERROR MESSAGE -->
-
            <input type="text" name="username" id="username" placeholder="username" [(ngModel)]="username" #userName="ngModel" minlength="4" required>
            <button type="submit" class="btn" id="saveScoreBtn" [disabled]="form.invalid">Save</button>
+
+           <!-- ERROR MESSAGE -->
+           <div class="error-message" *ngIf="userName.invalid && (userName.dirty || userName.touched)">
+            <div *ngIf="userName.errors?.['required']">
+            Please provide a username.
+            </div>
+            <div *ngIf="userName.errors?.['minlength']">
+            The username must contain at least 4 characters.
+            </div>
+        </div>
+        <!-- END OF ERROR MESSAGE -->
        </form>
        <a class="btn" routerLink="/game">Play Again</a>
        <a class="btn" routerLink="/">Go Home</a>
