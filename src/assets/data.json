@@ -2083,5 +2083,115 @@
 	"Phishing is a type of online game.",
 	"Phishing is a type of online chat service."
 	]
+},
+{
+	"category": "Technology",
+	"difficulty": "hard",
+	"question": "What is the name of the first video game ever created?",
+	"correct_answer": "Tennis for Two",
+	"incorrect_answers": [
+	"Pong",
+	"Spacewar!",
+	"Computer Space"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "hard",
+	"question": "What is the name of the first computer virus ever created?",
+	"correct_answer": "Creeper",
+	"incorrect_answers": [
+	"Brain",
+	"Michelangelo",
+	"ILOVEYOU"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "medium",
+	"question": "What is the name of the cryptocurrency created by Satoshi Nakamoto?",
+	"correct_answer": "Bitcoin",
+	"incorrect_answers": [
+	"Ethereum",
+	"Litecoin",
+	"Ripple"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "medium",
+	"question": "What is the name of the first web browser ever created?",
+	"correct_answer": "WorldWideWeb",
+	"incorrect_answers": [
+	"Mosaic",
+	"Netscape Navigator",
+	"Internet Explorer"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "medium",
+	"question": "What is the name of the programming language used to create the Windows operating system?",
+	"correct_answer": "C++",
+	"incorrect_answers": [
+	"Java",
+	"C#",
+	"Python"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym 'HTTP' stand for?",
+	"correct_answer": "Hypertext Transfer Protocol",
+	"incorrect_answers": [
+	"Hypertext Transfer Policy",
+	"Hypertext Transmission Protocol",
+	"Hypertext Transmission Policy"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the purpose of a firewall in a computer network?",
+	"correct_answer": "To prevent unauthorized access to a network",
+	"incorrect_answers": [
+	"To increase network speed",
+	"To enhance data encryption",
+	"To manage network traffic"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "Which of the following is an example of an input device?",
+	"correct_answer": "Keyboard",
+	"incorrect_answers": [
+	"Printer",
+	"Monitor",
+	"Speaker"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "Which of the following is an example of a database management system?",
+	"correct_answer": "MySQL",
+	"incorrect_answers": [
+	"Microsoft Word",
+	"Google Drive",
+	"Adobe Photoshop"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "Which of the following is an example of a computer programming paradigm?",
+	"correct_answer": "Object-oriented programming",
+	"incorrect_answers": [
+	"Cloud computing",
+	"Computer security",
+	"User interface design"
+	]
 }
 ]
