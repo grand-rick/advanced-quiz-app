@@ -19,6 +19,7 @@ export class EndComponent implements OnInit {
 
   saveHighScore(): void{
     this.quizService.addPlayer(this.username);
-    this.router.navigate(['/']);
+    // this.router.navigate(['/']);
+    alert(`${this.username} is Saved!`);
   }
 }
