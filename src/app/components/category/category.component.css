@@ -106,11 +106,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px
 }
 
 .submitBtn {
-    color: green;
+    color: white;
+    background-color: green;
+    padding: 5px;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
