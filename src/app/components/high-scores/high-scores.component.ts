@@ -8,7 +8,10 @@ import { Player } from 'src/app/models/Player';
   styleUrls: ['./high-scores.component.css']
 })
 export class HighScoresComponent implements OnInit {
-  players: Player[] = this.quizService.getPlayers().slice(0, 5);
+  /* Getting all the players, sorting them from highest to lowest by score, then taking the top 5 only. */
+  players: Player[] = this.quizService.getPlayers()
+                      .sort((a: Player, b: Player) => b.score - a.score)
+                      .slice(0, Math.min(5, this.quizService.getPlayers().length)); // Extract first 5 elements, or all elements if the array has less than 5 elements
 
   constructor (private quizService: QuizService) {}
 
