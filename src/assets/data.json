@@ -1973,5 +1973,115 @@
 	"High-Definition Media Input",
 	"High-Definition Memory Interface"
 	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym VPN stand for?",
+	"correct_answer": "Virtual Private Network",
+	"incorrect_answers": [
+	"Virtual Personal Network",
+	"Virtual Public Network",
+	"Visual Private Network"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the world's largest social network?",
+	"correct_answer": "Facebook",
+	"incorrect_answers": [
+	"Twitter",
+	"LinkedIn",
+	"Instagram"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Google's web browser?",
+	"correct_answer": "Google Chrome",
+	"incorrect_answers": [
+	"Mozilla Firefox",
+	"Safari",
+	"Microsoft Edge"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the default font used in Microsoft Word and other word processing programs?",
+	"correct_answer": "Times New Roman",
+	"incorrect_answers": [
+	"Arial",
+	"Helvetica",
+	"Verdana"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym RAM stand for?",
+	"correct_answer": "Random Access Memory",
+	"incorrect_answers": [
+	"Read-Only Memory",
+	"Remote Access Memory",
+	"Real-Time Access Memory"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Apple's virtual assistant?",
+	"correct_answer": "Siri",
+	"incorrect_answers": [
+	"Cortana",
+	"Alexa",
+	"Google Assistant"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the popular video conferencing software developed by Zoom Video Communications?",
+	"correct_answer": "Zoom",
+	"incorrect_answers": [
+	"Skype",
+	"Microsoft Teams",
+	"Google Meet"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym PDF stand for?",
+	"correct_answer": "Portable Document Format",
+	"incorrect_answers": [
+	"Personal Document Format",
+	"Printable Document Format",
+	"Publishable Document Format"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the difference between USB 2.0 and USB 3.0?",
+	"correct_answer": "USB 3.0 is faster than USB 2.0 and has more bandwidth.",
+	"incorrect_answers": [
+	"USB 2.0 is faster than USB 3.0 and has more bandwidth.",
+	"USB 3.0 is not compatible with USB 2.0.",
+	"USB 2.0 is not compatible with USB 3.0."
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is phishing?",
+	"correct_answer": "Phishing is a type of online fraud where cybercriminals use fraudulent emails or websites to steal sensitive information from unsuspecting victims.",
+	"incorrect_answers": [
+	"Phishing is a type of online marketing.",
+	"Phishing is a type of online game.",
+	"Phishing is a type of online chat service."
+	]
 }
 ]
