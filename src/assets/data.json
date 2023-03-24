@@ -1319,11 +1319,11 @@
 	"category": "War",
 	"difficulty": "easy",
 	"question": "Which battle marked the end of Napoleon's era?",
-	"correct_answer": "A. Battle of Waterloo",
+	"correct_answer": "Battle of Waterloo",
 	"incorrect_answers": [
-	"B. Battle of Gettysburg",
-	"C. Siege of Orleans",
-	"D. Battle of Vienna"
+	"Battle of Gettysburg",
+	"Siege of Orleans",
+	"Battle of Vienna"
 ]
 },
 {
@@ -1352,84 +1352,84 @@
 	"category": "War",
 	"difficulty": "easy",
 	"question": "The two atomic bombs dropped at Hiroshima and Nagasaki in Japan by the USA during?",
-	"correct_answer": "B. World War II",
+	"correct_answer": "World War II",
 	"incorrect_answers": [
-	"A. World War I",
-	"C. Gulf War I",
-	"D. Gulf War II"
+	"World War I",
+	"Gulf War I",
+	"Gulf War II"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "After the battle of landriano, French monarch Francois I was forced to concede defeat in which war?",
-	"correct_answer": "B. The War of the League of Cognac",
+	"correct_answer": "The War of the League of Cognac",
 	"incorrect_answers": [
-	"A. The War of the League of Burgundy",
-	"C. The War of the League of Brandy",
-	"D. The War of the League of Champagne"
+	"The War of the League of Burgundy",
+	"The War of the League of Brandy",
+	"The War of the League of Champagne"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "Operation Market Garden took place in the Netherlands and Germany during which war?",
-	"correct_answer": "B. World War II",
+	"correct_answer": "World War II",
 	"incorrect_answers": [
-	"A. War of Attrition",
-	"C. The Crusades",
-	"D. The American Civil War"
+	"War of Attrition",
+	"The Crusades",
+	"The American Civil War"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "The American War of Independence concluded by which treaty?",
-	"correct_answer": "A. The Treaty of Paris",
+	"correct_answer": " Treaty of Paris",
 	"incorrect_answers": [
-	"B. The Treaty of Yorktown",
-	"C. The Treaty of Oslo",
-	"D. The Treaty of Washington"
+	"The Treaty of Yorktown",
+	"The Treaty of Oslo",
+	"The Treaty of Washington"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "Which war included North Africa, the Philippines, Italy and Germany?",
-	"correct_answer": "D. World War II",
+	"correct_answer": "World War II",
 	"incorrect_answers": [
-	"A. World War I",
-	"B. American Civil War",
-	"C. Korean War"
+	"World War I",
+	"American Civil War",
+	"Korean War"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "The French revolution took place during the year?",
-	"correct_answer": "C. 1789-1799",
+	"correct_answer": "1789-1799",
 	"incorrect_answers": [
-	"A. 1787-1797",
-	"B. 1791-1799",
-	"D. 1798-1799"
+	"1787-1797",
+	"1791-1799",
+	"1798-1799"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "When Chiang Kai-shek and the Kuomintang lost the civil war in China to Mao Zedong, where did they escape to in 1949?",
-	"correct_answer": "B. Taiwan",
+	"correct_answer": "wan",
 	"incorrect_answers": [
-	"A. Laos",
-	"C. Korea",
-	"D. Japan"
+	"Laos",
+	"Korea",
+	"Japan"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "What was the name of German troops that were sent to assist General Franco in the Spanish Civil War?",
-	"correct_answer": "The Condor Legion",
+	"correct_answer": " Condor Legion",
 	"incorrect_answers": [
 	"The Eagle Squad",
 	"Francos Force",
@@ -1440,7 +1440,7 @@
 	"category": "War",
 	"difficulty": "easy",
 	"question": "Who famously put his telescope to his blind eye to ignore the orders of his superiors at the Battle of Copenhagen?",
-	"correct_answer": "Lord Nelson",
+	"correct_answer": "d Nelson",
 	"incorrect_answers": [
 	"The Duke of Lock",
 	"The Lord of Misrule",
@@ -1451,7 +1451,7 @@
 	"category": "War",
 	"difficulty": "easy",
 	"question": "By which treaty did the Franco-Prussian War of 1870-71 come to an end?",
-	"correct_answer": "The Treaty of Frankfurt",
+	"correct_answer": " Treaty of Frankfurt",
 	"incorrect_answers": [
 	"The Treaty of Salisburry",
 	"The Treaty of Rome",
