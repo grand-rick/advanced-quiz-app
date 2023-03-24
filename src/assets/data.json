@@ -1314,5 +1314,445 @@
 	"Six",
 	"Ten"
 	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Which battle marked the end of Napoleon's era?",
+	"correct_answer": "A. Battle of Waterloo",
+	"incorrect_answers": [
+	"B. Battle of Gettysburg",
+	"C. Siege of Orleans",
+	"D. Battle of Vienna"
+]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "What war inspired the United States to form a new way of communicating, now commonly known as the internet?",
+	"correct_answer": "D. Cold War",
+	"incorrect_answers": [
+	"A. The Gulf War",
+	"B. The Vietnam War",
+	"C. World War II"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The Terracotta Army marched underground, frozen in time from the burial of an emperor in the third century BCE until 1974 CE where?",
+	"correct_answer": "C. China",
+	"incorrect_answers": [
+	"A. Potter's Field",
+	"B. Cercemica",
+	"D. Porcelain"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The two atomic bombs dropped at Hiroshima and Nagasaki in Japan by the USA during?",
+	"correct_answer": "B. World War II",
+	"incorrect_answers": [
+	"A. World War I",
+	"C. Gulf War I",
+	"D. Gulf War II"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "After the battle of landriano, French monarch Francois I was forced to concede defeat in which war?",
+	"correct_answer": "B. The War of the League of Cognac",
+	"incorrect_answers": [
+	"A. The War of the League of Burgundy",
+	"C. The War of the League of Brandy",
+	"D. The War of the League of Champagne"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Operation Market Garden took place in the Netherlands and Germany during which war?",
+	"correct_answer": "B. World War II",
+	"incorrect_answers": [
+	"A. War of Attrition",
+	"C. The Crusades",
+	"D. The American Civil War"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The American War of Independence concluded by which treaty?",
+	"correct_answer": "A. The Treaty of Paris",
+	"incorrect_answers": [
+	"B. The Treaty of Yorktown",
+	"C. The Treaty of Oslo",
+	"D. The Treaty of Washington"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Which war included North Africa, the Philippines, Italy and Germany?",
+	"correct_answer": "D. World War II",
+	"incorrect_answers": [
+	"A. World War I",
+	"B. American Civil War",
+	"C. Korean War"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The French revolution took place during the year?",
+	"correct_answer": "C. 1789-1799",
+	"incorrect_answers": [
+	"A. 1787-1797",
+	"B. 1791-1799",
+	"D. 1798-1799"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "When Chiang Kai-shek and the Kuomintang lost the civil war in China to Mao Zedong, where did they escape to in 1949?",
+	"correct_answer": "B. Taiwan",
+	"incorrect_answers": [
+	"A. Laos",
+	"C. Korea",
+	"D. Japan"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "What was the name of German troops that were sent to assist General Franco in the Spanish Civil War?",
+	"correct_answer": "The Condor Legion",
+	"incorrect_answers": [
+	"The Eagle Squad",
+	"Francos Force",
+	"The Brown Shirts"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Who famously put his telescope to his blind eye to ignore the orders of his superiors at the Battle of Copenhagen?",
+	"correct_answer": "Lord Nelson",
+	"incorrect_answers": [
+	"The Duke of Lock",
+	"The Lord of Misrule",
+	"Prince Innarnia"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "By which treaty did the Franco-Prussian War of 1870-71 come to an end?",
+	"correct_answer": "The Treaty of Frankfurt",
+	"incorrect_answers": [
+	"The Treaty of Salisburry",
+	"The Treaty of Rome",
+	"The Treaty of Berlin"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The American War of Independence was fought between?",
+	"correct_answer": "America and Great Britain",
+	"incorrect_answers": [
+	"America and France",
+	"America and Spain",
+	"America and Portugal"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1942 Europe had witnessed a great war between?",
+	"correct_answer": "Germany and Russia",
+	"incorrect_answers": [
+	"Sweden and Russia",
+	"France and Germany",
+	"France and England"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The 'New Model Army' was formed to fight in which war?",
+	"correct_answer": "English Civil War",
+	"incorrect_answers": [
+	"Hundred Years' War",
+	"Korean War",
+	"World War I"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The Battle of Britain was fought in the year?",
+	"correct_answer": "1940",
+	"incorrect_answers": [
+	"1937",
+	"1938",
+	"1941"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Which military powers fought the Punic Wars?",
+	"correct_answer": "Rome and Carthage",
+	"incorrect_answers": [
+	"Sparta and Troy",
+	"Sparta and Greece",
+	"Rome and Troy"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In the first Punic War fought in 264-261 BC, the Romans were defeated by?",
+	"correct_answer": "Carthaginians",
+	"incorrect_answers": [
+	"Hittites",
+	"Tunisia",
+	"Phoenicia"
+	]
+},
+	{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In the 13th century, Russia was overrun by?",
+	"correct_answer": "Mongols",
+	"incorrect_answers": [
+	"Persians",
+	"Turks",
+	"Ottomans"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1260, the mongol army was defeated by the 59 armies of Islam at?",
+	"correct_answer": "Ain jalut",
+	"incorrect_answers": [
+	"Baghdad",
+	"Palestine",
+	"Mansurah"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The war of the grand alliance was fought during?",
+	"correct_answer": "1689-97",
+	"incorrect_answers": [
+	"1691-97",
+	"1693-97",
+	"1696-97"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The war of the Spanish succession was fought during?",
+	"correct_answer": "1701-14",
+	"incorrect_answers": [
+	"1710-14",
+	"1712-17",
+	"1716-18"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1805 the French fleet was destroyed at?",
+	"correct_answer": "The battle of Trafalgar",
+	"incorrect_answers": [
+	"The battle of Seville",
+	"The battle of cadiz",
+	"The battle of Cordoba"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1870, Germany waged war with?",
+	"correct_answer": "France",
+	"incorrect_answers": [
+	"Spain",
+	"Italy",
+	"Poland"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Between 1836-1847, the USA was at war with?",
+	"correct_answer": "Mexico",
+	"incorrect_answers": [
+	"Great british",
+	"Spain",
+	"Portugal"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1911, Italy invaded?",
+	"correct_answer": "Libya",
+	"incorrect_answers": [
+	"Albania",
+	"Spain",
+	"Germany"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The battles of Talavera and Salamanca took place during which war?",
+	"correct_answer": "Peninsular war",
+	"incorrect_answers": [
+	"Carimean war",
+	"Boer war",
+	"World war I"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1877, Russia went to war with?",
+	"correct_answer": "Turkey",
+	"incorrect_answers": [
+	"Sweden",
+	"Mongol",
+	"Bulgaria"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1898, the USA was at war with?",
+	"correct_answer": "Spain",
+	"incorrect_answers": [
+	"Great british",
+	"Mexico",
+	"Portugal"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The war of roses was",
+	"correct_answer": "Civil war in England",
+	"incorrect_answers": [
+	"World war I",
+	"War between Syrian and roman forces",
+	"None of the above"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Finland won independence in 1917 from?",
+	"correct_answer": "Russia",
+	"incorrect_answers": [
+	"Sweden",
+	"Poland",
+	"China"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "In 1935, Italy attacked?",
+	"correct_answer": "Ethiopia",
+	"incorrect_answers": [
+	"Kenya",
+	"Tanzania",
+	"Nigeria"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Which of these events occurred during the crimean war?",
+	"correct_answer": "The siege of Sevastopol",
+	"incorrect_answers": [
+	"The battle of somme",
+	"The siege of troy",
+	"The battle of midway"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The Visigoth army led by alaria famously sacked what city in 410 CE?",
+	"correct_answer": "Rome",
+	"incorrect_answers": [
+	"Jerez",
+	"Paris",
+	"Beijing"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Which was the last major military engagement of the American civil war?",
+	"correct_answer": "Siege of Petersburg",
+	"incorrect_answers": [
+	"Battle of five forks",
+	"Battle of Nashville",
+	"Battle of cedar creek"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Identify the military alliances formed during the cold war era?",
+	"correct_answer": "NATO",
+	"incorrect_answers": [
+	"QUAD",
+	"SCRA",
+	"EU"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "The battle of Tewkesbury in 1471 was decisive in which conflict?",
+	"correct_answer": "The wars of the roses",
+	"incorrect_answers": [
+	"English civil war",
+	"The seven years' war",
+	"The boer war"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "Who led his troops to victory against guthrum's Danish army at the battle of Edington?",
+	"correct_answer": "Alfred the great",
+	"incorrect_answers": [
+	"Canute",
+	"Ethelred I",
+	"King Arthur"
+	]
+},
+{
+	"category": "War",
+	"difficulty": "easy",
+	"question": "At the battle of hastings in 1066, William of Normandy conquered?",
+	"correct_answer": "England",
+	"incorrect_answers": [
+	"Jerusalem",
+	"Italy",
+	"Germany"
+	]
 }
 ]
