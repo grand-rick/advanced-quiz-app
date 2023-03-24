@@ -19,7 +19,9 @@ export class QuizService {
     'Animals',
     'Technology',
     'War',
-    'Education'
+    'Education',
+    'Random',
+    'All'
   ];
 
   constructor(private http: HttpClient) { }
