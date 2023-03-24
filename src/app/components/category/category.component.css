@@ -115,10 +115,14 @@
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
-    border: none;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    /* border: none; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
 }
