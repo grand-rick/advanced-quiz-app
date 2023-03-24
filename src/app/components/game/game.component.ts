@@ -16,6 +16,7 @@ export class GameComponent implements OnInit {
   availableQuestions: Question[] = [];
   currentQuestion: Question;
   selectedCategory: string;
+  categories: string[];
 
   //CONSTANTS
   NUM_OF_QUESTIONS: number = 10;
@@ -40,6 +41,7 @@ export class GameComponent implements OnInit {
       }
 
       this.selectedCategory = this.quizService.getSelectedCategory();
+      this.categories = this.quizService.getAllCategories();
     }
 
   ngOnInit(): void {
@@ -66,9 +68,23 @@ export class GameComponent implements OnInit {
     let neatQuestions: Question[] = [];
     
     loadedQuestions.forEach((loadedQuestion: rawQuestion) => {
-      if (loadedQuestion.category !== this.selectedCategory) {
+      let isAllCategory: boolean = false;
+
+      if (this.selectedCategory === 'All') {
+        isAllCategory = true;
+      }
+
+      if (this.selectedCategory === 'Random') {
+        const randomIndex: number = Math.floor(Math.random() * this.categories.length);
+        this.selectedCategory = this.categories[randomIndex];
+      }
+
+      /* It's checking if the current category is the selected one. If it isn't, it skips the
+      iteration. */
+      if (isAllCategory === false && loadedQuestion.category !== this.selectedCategory) {
         return;
       }
+
       const formattedQuestion: Question = {
         category: loadedQuestion.category,
         difficulty: loadedQuestion.difficulty,
