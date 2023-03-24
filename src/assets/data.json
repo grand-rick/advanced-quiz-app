@@ -1330,22 +1330,22 @@
 	"category": "War",
 	"difficulty": "easy",
 	"question": "What war inspired the United States to form a new way of communicating, now commonly known as the internet?",
-	"correct_answer": "D. Cold War",
+	"correct_answer": "Cold War",
 	"incorrect_answers": [
-	"A. The Gulf War",
-	"B. The Vietnam War",
-	"C. World War II"
+	"The Gulf War",
+	"The Vietnam War",
+	"World War II"
 	]
 },
 {
 	"category": "War",
 	"difficulty": "easy",
 	"question": "The Terracotta Army marched underground, frozen in time from the burial of an emperor in the third century BCE until 1974 CE where?",
-	"correct_answer": "C. China",
+	"correct_answer": "China",
 	"incorrect_answers": [
-	"A. Potter's Field",
-	"B. Cercemica",
-	"D. Porcelain"
+	"Potter's Field",
+	"Cercemica",
+	"Porcelain"
 	]
 },
 {
