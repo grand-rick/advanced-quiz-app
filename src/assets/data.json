@@ -1754,5 +1754,224 @@
 	"Italy",
 	"Germany"
 	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the most widely used programming language?",
+	"correct_answer": "Java",
+	"incorrect_answers": [
+	"Python",
+	"C++",
+	"JavaScript"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym HTML stand for?",
+	"correct_answer": "Hyper Text Markup Language",
+	"incorrect_answers": [
+	"Hyperlinks and Text Markup Language",
+	"Home Tool Markup Language",
+	"Hyper Technical Markup Language"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the world's largest social media platform?",
+	"correct_answer": "Facebook",
+	"incorrect_answers": [
+	"Instagram",
+	"Twitter",
+	"LinkedIn"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym CPU stand for?",
+	"correct_answer": "Central Processing Unit",
+	"incorrect_answers": [
+	"Central Power Unit",
+	"Computer Processing Unit",
+	"Computer Power Unit"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the virtual assistant developed by Amazon?",
+	"correct_answer": "Alexa",
+	"incorrect_answers": [
+	"Siri",
+	"Cortana",
+	"Google Assistant"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the most popular web browser?",
+	"correct_answer": "Google Chrome",
+	"incorrect_answers": [
+	"Mozilla Firefox",
+	"Internet Explorer",
+	"Safari"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym VPN stand for?",
+	"correct_answer": "Virtual Private Network",
+	"incorrect_answers": [
+	"Virtual Personal Network",
+	"Virtual Public Network",
+	"Virtual Protected Network"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Apple's mobile operating system?",
+	"correct_answer": "iOS",
+	"incorrect_answers": [
+	"macOS",
+	"watchOS",
+	"tvOS"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the default font used in Microsoft Word documents?",
+	"correct_answer": "Calibri",
+	"incorrect_answers": [
+	"Times New Roman",
+	"Arial",
+	"Verdana"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym USB stand for?",
+	"correct_answer": "Universal Serial Bus",
+	"incorrect_answers": [
+	"Unrestricted Serial Bus",
+	"United Serial Bus",
+	"Unique Serial Bus"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the most widely used web programming language?",
+	"correct_answer": "JavaScript",
+	"incorrect_answers": [
+	"HTML",
+	"CSS",
+	"Python"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym CSS stand for?",
+	"correct_answer": "Cascading Style Sheets",
+	"incorrect_answers": [
+	"Cascading Sheets Style",
+	"Cascading Style System",
+	"Cascading System Sheets"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym URL stand for?",
+	"correct_answer": "Uniform Resource Locator",
+	"incorrect_answers": [
+	"Universal Resource Locator",
+	"Unrestricted Resource Locator",
+	"Unique Resource Locator"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Google's mobile operating system?",
+	"correct_answer": "Android",
+	"incorrect_answers": [
+	"iOS",
+	"Windows Mobile",
+	"Blackberry OS"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym Wi-Fi stand for?",
+	"correct_answer": "Wireless Fidelity",
+	"incorrect_answers": [
+	"Wired Fidelity",
+	"Wireless Frequency",
+	"Wide Fidelity"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Microsoft's web browser?",
+	"correct_answer": "Microsoft Edge",
+	"incorrect_answers": [
+	"Internet Explorer",
+	"Mozilla Firefox",
+	"Google Chrome"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym HTML5 stand for?",
+	"correct_answer": "Hyper Text Markup Language version 5",
+	"incorrect_answers": [
+	"Hyperlinks and Text Markup Language version 5",
+	"Home Tool Markup Language version 5",
+	"Hyper Technical Markup Language version 5"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of the messaging app developed by Facebook?",
+	"correct_answer": "Messenger",
+	"incorrect_answers": [
+	"WhatsApp",
+	"Instagram",
+	"Snapchat"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What is the name of Apple's desktop operating system?",
+	"correct_answer": "macOS",
+	"incorrect_answers": [
+	"iOS",
+	"watchOS",
+	"tvOS"
+	]
+},
+{
+	"category": "Technology",
+	"difficulty": "easy",
+	"question": "What does the acronym HDMI stand for?",
+	"correct_answer": "High-Definition Multimedia Interface",
+	"incorrect_answers": [
+	"High-Definition Media Input",
+	"High-Definition Memory Interface"
+	]
 }
 ]
