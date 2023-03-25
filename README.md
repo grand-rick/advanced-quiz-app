@@ -17,3 +17,6 @@ Here, a list of all the various categories will pop up, and you'll have to choos
 After choosing a category, a new button will show up, indicating `GO`.
 
 ![GO button](src/assets/images/GO.png)
+
+## LOBBY
+This is where you can start playing or view the highscores
