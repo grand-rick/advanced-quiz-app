@@ -80,10 +80,10 @@
     "category": "Sports",
     "difficulty": "easy",
     "question": "Who is the all-time leading scorer in NBA history?",
-    "correct_answer": "Kareem Abdul-Jabbar",
+    "correct_answer": "LeBron James",
     "incorrect_answers": [
         "Kobe Bryant",
-        "LeBron James",
+        "Kareem Abdul-Jabbar",
         "Michael Jordan"
     ]
 },
@@ -166,9 +166,9 @@
     "category": "Sports",
     "difficulty": "easy",
     "question": "Who is the all-time leading scorer in the history of the English Premier League?",
-    "correct_answer": "Wayne Rooney",
+    "correct_answer": "Alan Shearer",
     "incorrect_answers": [
-        "Alan Shearer",
+        "Wayne Rooney",
         "Thierry Henry",
         "Andy Cole"
     ]
